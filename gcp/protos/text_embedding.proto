@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package text_embedding;
+
+message SaveTextEmbeddingRequest {
+  string url = 1;
+  string text = 2;
+}
+
+message SaveTextEmbeddingResponse {
+  bool status = 1;
+}
+
+service TextEmbedding {
+  rpc SaveTextEmbedding (SaveTextEmbeddingRequest) returns (SaveTextEmbeddingResponse);
+}

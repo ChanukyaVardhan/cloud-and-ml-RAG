@@ -1,0 +1,9 @@
+transformers
+grpcio
+grpcio-tools
+asyncio
+asyncpg
+google-cloud-aiplatform
+cloud-sql-python-connector
+langchain
+pgvector
