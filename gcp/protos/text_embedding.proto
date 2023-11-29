@@ -11,6 +11,20 @@ message SaveTextEmbeddingResponse {
   bool status = 1;
 }
 
+message GetPreferenceArticlesRequest {
+  string preference_text = 1;
+}
+
+message GetPreferenceArticlesResponse {
+  repeated PreferenceArticle article = 1;
+}
+
+message PreferenceArticle {
+  string url = 1;
+  string summary = 2;
+}
+
 service TextEmbedding {
   rpc SaveTextEmbedding (SaveTextEmbeddingRequest) returns (SaveTextEmbeddingResponse);
+  rpc GetPreferenceArticles (GetPreferenceArticlesRequest) returns (GetPreferenceArticlesResponse);
 }
