@@ -11,7 +11,8 @@ def run():
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 
         response = stub.GetPreferenceArticles(text_embedding_pb2.GetPreferenceArticlesRequest(
-            preference_text="Interested in news related to the Dutch government and flight movement in Amsterdam."
+            # preference_text="Interested in news related to the Dutch government and flight movement in Amsterdam."
+            preference_text="Interested in news related to gold."
         ))
 
         print(response)

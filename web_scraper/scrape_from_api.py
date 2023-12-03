@@ -7,7 +7,6 @@ import re
 import json
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import quote
 from datetime import datetime, timedelta
 
 base_url = "https://seekingalpha.com"
