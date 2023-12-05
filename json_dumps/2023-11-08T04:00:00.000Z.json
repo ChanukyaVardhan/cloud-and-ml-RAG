@@ -1,0 +1,1955 @@
+{
+    "count": 325,
+    "articles_metadata": [
+        {
+            "id": "4649518",
+            "publish_time": "2023-11-08T22:54:47-05:00",
+            "title": "NewLake Capital Partners: Low Risk 10% Yield",
+            "article_url": "https://seekingalpha.com//article/4649518-newlake-capital-partners-low-risk-10-percent-yield"
+        },
+        {
+            "id": "4649509",
+            "publish_time": "2023-11-08T22:43:38-05:00",
+            "title": "BB Seguridade: Q3 Earnings, A Balanced View On Bullish Trends",
+            "article_url": "https://seekingalpha.com//article/4649509-bb-seguridade-q3-earnings-balanced-view-bullish-trends"
+        },
+        {
+            "id": "4649498",
+            "publish_time": "2023-11-08T22:27:42-05:00",
+            "title": "Ideal Pairs Trade Into 2024: Health Vs. Hype: Capitalizing On A Therapeutic Turn And A Tech Tumble",
+            "article_url": "https://seekingalpha.com//article/4649498-ideal-pairs-trade-into-2024-health-vs-tech-hype"
+        },
+        {
+            "id": "4649485",
+            "publish_time": "2023-11-08T22:12:27-05:00",
+            "title": "Monolithic Power Systems: Leading The Charge In Analog Growth",
+            "article_url": "https://seekingalpha.com//article/4649485-monolithic-power-systems-leading-the-charge-in-analog-growth"
+        },
+        {
+            "id": "4649482",
+            "publish_time": "2023-11-08T22:09:03-05:00",
+            "title": "The Crash Higher Is Coming",
+            "article_url": "https://seekingalpha.com//article/4649482-the-crash-higher-is-coming"
+        },
+        {
+            "id": "4649516",
+            "publish_time": "2023-11-08T22:05:00-05:00",
+            "title": "Asset Class Scoreboard: October 2023",
+            "article_url": "https://seekingalpha.com//article/4649516-asset-class-scoreboard-october-2023"
+        },
+        {
+            "id": "4649479",
+            "publish_time": "2023-11-08T22:04:42-05:00",
+            "title": "Brigadoon",
+            "article_url": "https://seekingalpha.com//article/4649479-brigadoon"
+        },
+        {
+            "id": "4649519",
+            "publish_time": "2023-11-08T21:56:09-05:00",
+            "title": "Lyft, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649519-lyft-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649513",
+            "publish_time": "2023-11-08T21:49:41-05:00",
+            "title": "OneSpan Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649513-onespan-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649501",
+            "publish_time": "2023-11-08T21:40:00-05:00",
+            "title": "U.S. Q4 2023 GDP Growth Still Appears Set For Substantial Slowdown",
+            "article_url": "https://seekingalpha.com//article/4649501-us-q4-2023-gdp-growth-still-appears-set-for-substantial-slowdown"
+        },
+        {
+            "id": "4649493",
+            "publish_time": "2023-11-08T21:22:38-05:00",
+            "title": "Invitae Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649493-invitae-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649489",
+            "publish_time": "2023-11-08T21:16:00-05:00",
+            "title": "Vinci Partners Investments Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649489-vinci-partners-investments-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649486",
+            "publish_time": "2023-11-08T21:12:51-05:00",
+            "title": "AMG Critical Materials N.V. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649486-amg-critical-materials-n-v-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649447",
+            "publish_time": "2023-11-08T21:11:59-05:00",
+            "title": "Ubiquiti: Weak Quarters Shouldn't Undermine Long-Term Story",
+            "article_url": "https://seekingalpha.com//article/4649447-ubiquiti-weak-quarters-shouldnt-undermine-long-term-story"
+        },
+        {
+            "id": "4649445",
+            "publish_time": "2023-11-08T21:10:01-05:00",
+            "title": "IVOL: Time To Buy Bonds And 2s10s (Rating Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4649445-ivol-etf-time-buy-bonds-2s10s-rating-upgrade"
+        },
+        {
+            "id": "4649481",
+            "publish_time": "2023-11-08T21:08:32-05:00",
+            "title": "ChromaDex Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649481-chromadex-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649480",
+            "publish_time": "2023-11-08T21:07:25-05:00",
+            "title": "LivePerson, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649480-liveperson-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649440",
+            "publish_time": "2023-11-08T21:00:30-05:00",
+            "title": "Public REITs: Are We There Yet?",
+            "article_url": "https://seekingalpha.com//article/4649440-public-reits-are-we-there-yet"
+        },
+        {
+            "id": "4649437",
+            "publish_time": "2023-11-08T21:00:18-05:00",
+            "title": "Braskem: Glad I Sold After A 27.8% Negative RoR",
+            "article_url": "https://seekingalpha.com//article/4649437-braskem-stock-glad-i-sold-after-strong-negative-ror"
+        },
+        {
+            "id": "4649473",
+            "publish_time": "2023-11-08T20:58:28-05:00",
+            "title": "Bloom Energy Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649473-bloom-energy-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649463",
+            "publish_time": "2023-11-08T20:43:20-05:00",
+            "title": "Lantern Pharma Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649463-lantern-pharma-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649425",
+            "publish_time": "2023-11-08T20:20:02-05:00",
+            "title": "Ovintiv: Operational Improvement But Debt Reduction A Headwind (Rating Downgrade)",
+            "article_url": "https://seekingalpha.com//article/4649425-ovintiv-q3-earnings-operational-improvement-debt-reduction-headwind-rating-downgrade"
+        },
+        {
+            "id": "4649452",
+            "publish_time": "2023-11-08T20:20:00-05:00",
+            "title": "Teen Jobs Rise In October 2023",
+            "article_url": "https://seekingalpha.com//article/4649452-teen-jobs-rise-october-2023"
+        },
+        {
+            "id": "4649415",
+            "publish_time": "2023-11-08T20:00:45-05:00",
+            "title": "USMV: A Solid ETF For Volatility Reduction",
+            "article_url": "https://seekingalpha.com//article/4649415-usmv-solid-etf-for-volatility-reduction"
+        },
+        {
+            "id": "4649410",
+            "publish_time": "2023-11-08T19:52:01-05:00",
+            "title": "O'Reilly Automotive: Benefiting From Inflation",
+            "article_url": "https://seekingalpha.com//article/4649410-oreilly-automotive-q3-earnings-benefiting-from-inflation"
+        },
+        {
+            "id": "4649435",
+            "publish_time": "2023-11-08T19:44:13-05:00",
+            "title": "scPharmaceuticals Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649435-scpharmaceuticals-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649434",
+            "publish_time": "2023-11-08T19:42:42-05:00",
+            "title": "Jazz Pharmaceuticals plc 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649434-jazz-pharmaceuticals-plc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649428",
+            "publish_time": "2023-11-08T19:40:00-05:00",
+            "title": "Just How Tight Are Financial Conditions Anyway?",
+            "article_url": "https://seekingalpha.com//article/4649428-just-how-tight-are-financial-conditions-anyway"
+        },
+        {
+            "id": "4649429",
+            "publish_time": "2023-11-08T19:37:08-05:00",
+            "title": "Eastman Kodak Company 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649429-eastman-kodak-company-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649426",
+            "publish_time": "2023-11-08T19:26:17-05:00",
+            "title": "SkyWater Technology, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649426-skywater-technology-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649401",
+            "publish_time": "2023-11-08T19:19:00-05:00",
+            "title": "U.S. Equities: Which Stocks Have Outperformed In A Weaker Market?",
+            "article_url": "https://seekingalpha.com//article/4649401-us-equities-which-stocks-have-outperformed-in-a-weaker-market"
+        },
+        {
+            "id": "4649400",
+            "publish_time": "2023-11-08T19:16:04-05:00",
+            "title": "WeWork: Another Nail In Commercial Real Estate's Coffin",
+            "article_url": "https://seekingalpha.com//article/4649400-wework-another-nail-in-commercial-real-estates-coffin"
+        },
+        {
+            "id": "4649424",
+            "publish_time": "2023-11-08T19:13:42-05:00",
+            "title": "Aeva Technologies, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649424-aeva-technologies-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649398",
+            "publish_time": "2023-11-08T19:13:34-05:00",
+            "title": "BorgWarner: Powering The EV Revolution With A Sufficient Margin Of Safety",
+            "article_url": "https://seekingalpha.com//article/4649398-borgwarner-powering-the-ev-revolution"
+        },
+        {
+            "id": "4649396",
+            "publish_time": "2023-11-08T19:09:56-05:00",
+            "title": "Crescent Point Energy: Management Found Another Bargain With Hammerhead Acquisition",
+            "article_url": "https://seekingalpha.com//article/4649396-crescent-point-energy-management-found-another-bargain-with-hammerhead-acquisition"
+        },
+        {
+            "id": "4649419",
+            "publish_time": "2023-11-08T19:09:28-05:00",
+            "title": "SuRo Capital Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649419-suro-capital-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649418",
+            "publish_time": "2023-11-08T19:07:03-05:00",
+            "title": "WM Technology, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649418-wm-technology-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649412",
+            "publish_time": "2023-11-08T19:05:00-05:00",
+            "title": "Japan's Future Remains An Issue Of Debate",
+            "article_url": "https://seekingalpha.com//article/4649412-japan-future-remains-issue-of-debate"
+        },
+        {
+            "id": "4649416",
+            "publish_time": "2023-11-08T19:03:04-05:00",
+            "title": "Virgin Galactic Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649416-virgin-galactic-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649409",
+            "publish_time": "2023-11-08T18:51:56-05:00",
+            "title": "LifeMD, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649409-lifemd-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649407",
+            "publish_time": "2023-11-08T18:45:54-05:00",
+            "title": "LiveRamp Holdings, Inc. 2024 Q2 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649407-liveramp-holdings-inc-2024-q2-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649406",
+            "publish_time": "2023-11-08T18:43:21-05:00",
+            "title": "WideOpenWest, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649406-wideopenwest-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649405",
+            "publish_time": "2023-11-08T18:43:03-05:00",
+            "title": "Jamf Holding Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649405-jamf-holding-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649403",
+            "publish_time": "2023-11-08T18:40:00-05:00",
+            "title": "S&P 500 Gains Despite Bad Breadth",
+            "article_url": "https://seekingalpha.com//article/4649403-s-and-p-500-gains-despite-bad-breadth"
+        },
+        {
+            "id": "4649404",
+            "publish_time": "2023-11-08T18:38:59-05:00",
+            "title": "Natera, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649404-natera-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649397",
+            "publish_time": "2023-11-08T18:25:00-05:00",
+            "title": "An Inflection Point For Bonds: 2024 Fixed-Income Outlook",
+            "article_url": "https://seekingalpha.com//article/4649397-inflection-point-for-bonds-2024-fixed-income-outlook"
+        },
+        {
+            "id": "4649386",
+            "publish_time": "2023-11-08T18:24:05-05:00",
+            "title": "Steris: Comprehensive Sterilization Portfolios Tailored To Procedure Volumes",
+            "article_url": "https://seekingalpha.com//article/4649386-steris-sterilization-portfolios-tailored-to-procedure-volumes"
+        },
+        {
+            "id": "4649399",
+            "publish_time": "2023-11-08T18:15:36-05:00",
+            "title": "Traeger, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649399-traeger-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649395",
+            "publish_time": "2023-11-08T18:06:17-05:00",
+            "title": "Arbe Robotics Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649395-arbe-robotics-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649375",
+            "publish_time": "2023-11-08T17:57:20-05:00",
+            "title": "USFR: Keeping An Eye On The Exit (Downgrade To Hold)",
+            "article_url": "https://seekingalpha.com//article/4649375-usfr-keeping-an-eye-on-the-exit-downgrade-to-hold"
+        },
+        {
+            "id": "4649374",
+            "publish_time": "2023-11-08T17:56:47-05:00",
+            "title": "BGY: Going Global For Discounts",
+            "article_url": "https://seekingalpha.com//article/4649374-bgy-going-global-for-discounts"
+        },
+        {
+            "id": "4649372",
+            "publish_time": "2023-11-08T17:51:31-05:00",
+            "title": "Dream Industrial: We Got The Pullback We Wanted",
+            "article_url": "https://seekingalpha.com//article/4649372-dream-industrial-we-got-the-pullback-we-wanted"
+        },
+        {
+            "id": "4649390",
+            "publish_time": "2023-11-08T17:48:44-05:00",
+            "title": "The Walt Disney Company 2023 Q4 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649390-walt-disney-company-2023-q4-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649367",
+            "publish_time": "2023-11-08T17:42:07-05:00",
+            "title": "EWX: Outperforming EM Small-Cap ETF Makes A Great Portfolio Diversifier",
+            "article_url": "https://seekingalpha.com//article/4649367-ewx-outperforming-em-small-cap-etf-makes-a-great-portfolio-diversifier"
+        },
+        {
+            "id": "4649366",
+            "publish_time": "2023-11-08T17:41:32-05:00",
+            "title": "McDonald's: The Dollar Menu Is Gone But Not These Dividends",
+            "article_url": "https://seekingalpha.com//article/4649366-mcdonalds-the-dollar-menu-is-gone-but-not-these-dividends"
+        },
+        {
+            "id": "4649365",
+            "publish_time": "2023-11-08T17:41:16-05:00",
+            "title": "RMM: An Expensive Way To Access The Municipal Bond Sector",
+            "article_url": "https://seekingalpha.com//article/4649365-rmm-an-expensive-way-to-access-the-municipal-bond-sector"
+        },
+        {
+            "id": "4649388",
+            "publish_time": "2023-11-08T17:30:01-05:00",
+            "title": "KORU Medical Systems, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649388-koru-medical-systems-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649364",
+            "publish_time": "2023-11-08T17:29:14-05:00",
+            "title": "Molson Coors: Still One Of My Favorite Buys",
+            "article_url": "https://seekingalpha.com//article/4649364-molson-coors-still-one-of-my-favorite-buys"
+        },
+        {
+            "id": "4649387",
+            "publish_time": "2023-11-08T17:24:13-05:00",
+            "title": "MicroVision, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649387-microvision-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649361",
+            "publish_time": "2023-11-08T17:23:27-05:00",
+            "title": "Ferrari: Some Companies Deserve A 40x Multiple, But Beware Of Q4",
+            "article_url": "https://seekingalpha.com//article/4649361-ferrari-some-companies-deserve-a-40x-multiple-but-beware-of-q4"
+        },
+        {
+            "id": "4649358",
+            "publish_time": "2023-11-08T17:09:15-05:00",
+            "title": "ICU Medical: Who Is Coming To The Rescue?",
+            "article_url": "https://seekingalpha.com//article/4649358-icu-medical-who-is-coming-to-the-rescue"
+        },
+        {
+            "id": "4649357",
+            "publish_time": "2023-11-08T17:09:05-05:00",
+            "title": "Google: All Good Things Must Come To An End (Rating Downgrade)",
+            "article_url": "https://seekingalpha.com//article/4649357-google-all-good-things-must-come-to-an-end-rating-downgrade"
+        },
+        {
+            "id": "4649382",
+            "publish_time": "2023-11-08T17:07:09-05:00",
+            "title": "Magnite, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649382-magnite-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649353",
+            "publish_time": "2023-11-08T17:00:41-05:00",
+            "title": "EWA: Extended Monetary Tightening Looms Large In Australia",
+            "article_url": "https://seekingalpha.com//article/4649353-ewa-extended-monetary-tightening-looms-large-in-australia"
+        },
+        {
+            "id": "4649352",
+            "publish_time": "2023-11-08T17:00:20-05:00",
+            "title": "Plains All American: Raising Price Target On Continued Strong Performance",
+            "article_url": "https://seekingalpha.com//article/4649352-plains-all-american-raising-price-target-strong-performance"
+        },
+        {
+            "id": "4649371",
+            "publish_time": "2023-11-08T16:51:15-05:00",
+            "title": "Westport Fuel Systems Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649371-westport-fuel-systems-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649369",
+            "publish_time": "2023-11-08T16:48:21-05:00",
+            "title": "Blackstone Secured Lending Fund. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649369-blackstone-secured-lending-fund-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649345",
+            "publish_time": "2023-11-08T16:46:25-05:00",
+            "title": "New REIT Acquisition Target... Themselves",
+            "article_url": "https://seekingalpha.com//article/4649345-new-reit-acquisition-target-themselves"
+        },
+        {
+            "id": "4649344",
+            "publish_time": "2023-11-08T16:46:17-05:00",
+            "title": "Aflac: Hold Rating Reaffirmed, A Dividend Grower With High Stock Price",
+            "article_url": "https://seekingalpha.com//article/4649344-aflac-a-dividend-grower-with-high-stock-price"
+        },
+        {
+            "id": "4649201",
+            "publish_time": "2023-11-08T16:30:00-05:00",
+            "title": "Berkshire Hathaway: Even Buffett Agrees With My Caution As Repurchases Fell",
+            "article_url": "https://seekingalpha.com//article/4649201-berkshire-hathaway-even-buffett-agrees-with-my-caution-as-repurchases-fell"
+        },
+        {
+            "id": "4649334",
+            "publish_time": "2023-11-08T16:27:37-05:00",
+            "title": "The 'Macro Question' Some Have Been Asking (What Keeps Me Up At Night?)",
+            "article_url": "https://seekingalpha.com//article/4649334-the-macro-question-some-have-been-asking-what-keeps-me-up-at-night"
+        },
+        {
+            "id": "4649360",
+            "publish_time": "2023-11-08T16:13:14-05:00",
+            "title": "Hillman Solutions Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649360-hillman-solutions-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649320",
+            "publish_time": "2023-11-08T16:03:41-05:00",
+            "title": "Biogen's Uncertain Strategic Pivots Amidst MS Market Challenges",
+            "article_url": "https://seekingalpha.com//article/4649320-biogens-uncertain-strategic-pivots-amidst-ms-market-challenges"
+        },
+        {
+            "id": "4649355",
+            "publish_time": "2023-11-08T16:02:08-05:00",
+            "title": "NewtekOne, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649355-newtekone-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649318",
+            "publish_time": "2023-11-08T15:58:16-05:00",
+            "title": "Brutal Q3 For Pan American Silver: Traders On Alert",
+            "article_url": "https://seekingalpha.com//article/4649318-brutal-q3-for-pan-american-silver-traders-on-alert"
+        },
+        {
+            "id": "4649315",
+            "publish_time": "2023-11-08T15:55:06-05:00",
+            "title": "Our Core U.S. Fundamental ETFs",
+            "article_url": "https://seekingalpha.com//article/4649315-our-core-us-fundamental-etfs"
+        },
+        {
+            "id": "4649313",
+            "publish_time": "2023-11-08T15:51:57-05:00",
+            "title": "Hims & Hers: The Most Undervalued Small Cap Stock I See",
+            "article_url": "https://seekingalpha.com//article/4649313-hims-and-hers-the-most-undervalued-small-cap-stock"
+        },
+        {
+            "id": "4649309",
+            "publish_time": "2023-11-08T15:47:43-05:00",
+            "title": "Livent And Albemarle: 2 Lithium Stocks To Buy Now",
+            "article_url": "https://seekingalpha.com//article/4649309-livent-and-albemarle-two-lithium-stocks-to-buy-now"
+        },
+        {
+            "id": "4649294",
+            "publish_time": "2023-11-08T15:33:59-05:00",
+            "title": "MoneyLion: SPAC Curse",
+            "article_url": "https://seekingalpha.com//article/4649294-moneylion-spac-curse"
+        },
+        {
+            "id": "4649290",
+            "publish_time": "2023-11-08T15:22:43-05:00",
+            "title": "Celldex: Mast Cell Disease Targeting Continues To Make Advancements In Clinic",
+            "article_url": "https://seekingalpha.com//article/4649290-celldex-mast-cell-disease-targeting-continues-to-make-advancements-in-clinic"
+        },
+        {
+            "id": "4649276",
+            "publish_time": "2023-11-08T15:09:11-05:00",
+            "title": "U.S. Household Debt Defaults At 'Millennial' Highs",
+            "article_url": "https://seekingalpha.com//article/4649276-us-household-debt-defaults-at-millennial-highs"
+        },
+        {
+            "id": "4649317",
+            "publish_time": "2023-11-08T14:55:52-05:00",
+            "title": "VAALCO Energy, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649317-vaalco-energy-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649271",
+            "publish_time": "2023-11-08T14:54:47-05:00",
+            "title": "Paysafe Limited: Progress But Leverage Still Concerning",
+            "article_url": "https://seekingalpha.com//article/4649271-paysafe-limited-progress-but-leverage-still-concerning"
+        },
+        {
+            "id": "4649269",
+            "publish_time": "2023-11-08T14:53:19-05:00",
+            "title": "Plastic Omnium: Risky, But Huge Upside Potential On Uncertain Future Margin Expansion",
+            "article_url": "https://seekingalpha.com//article/4649269-plastic-omnium-risky-but-huge-upside-potential-on-uncertain-future-margin-expansion"
+        },
+        {
+            "id": "4649260",
+            "publish_time": "2023-11-08T14:40:59-05:00",
+            "title": "CHI: Nice Assets, But High Valuation Given The Risks Of A Distribution Cut",
+            "article_url": "https://seekingalpha.com//article/4649260-chi-nice-assets-but-high-valuation-given-the-risks-of-a-distribution-cut"
+        },
+        {
+            "id": "4649259",
+            "publish_time": "2023-11-08T14:36:10-05:00",
+            "title": "Dow: Resetting Expectations, Still A Buy",
+            "article_url": "https://seekingalpha.com//article/4649259-dow-resetting-expectations-still-buy"
+        },
+        {
+            "id": "4649257",
+            "publish_time": "2023-11-08T14:29:56-05:00",
+            "title": "AI, The Future, Is Accelerating Into The Present",
+            "article_url": "https://seekingalpha.com//article/4649257-ai-the-future-is-accelerating-into-the-present"
+        },
+        {
+            "id": "4649277",
+            "publish_time": "2023-11-08T14:17:32-05:00",
+            "title": "AstraZeneca: Revenue Softening Possible, Profits To Rise",
+            "article_url": "https://seekingalpha.com//article/4649277-astrazeneca-revenue-softening-possible-profits-to-rise"
+        },
+        {
+            "id": "4649249",
+            "publish_time": "2023-11-08T14:12:50-05:00",
+            "title": "iQIYI: Risk/Reward Very Enticing Even With Beaten-Down Estimates",
+            "article_url": "https://seekingalpha.com//article/4649249-iqiyi-risk-reward-very-enticing-even-with-beaten-down-estimates"
+        },
+        {
+            "id": "4649263",
+            "publish_time": "2023-11-08T14:05:00-05:00",
+            "title": "Navigating Global Equity Markets",
+            "article_url": "https://seekingalpha.com//article/4649263-navigating-global-equity-markets"
+        },
+        {
+            "id": "4649268",
+            "publish_time": "2023-11-08T13:52:56-05:00",
+            "title": "Primoris Services Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649268-primoris-services-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649239",
+            "publish_time": "2023-11-08T13:52:53-05:00",
+            "title": "Mega-Cap Technology And Cybersecurity Stocks Leading The Market (Technical Analysis)",
+            "article_url": "https://seekingalpha.com//article/4649239-mega-cap-technology-and-cybersecurity-stocks-leading-the-market"
+        },
+        {
+            "id": "4649231",
+            "publish_time": "2023-11-08T13:47:00-05:00",
+            "title": "Europe's Wage Rises Are Aiding Recovery But Economies Face Risks",
+            "article_url": "https://seekingalpha.com//article/4649231-europe-wage-rises-aiding-recovery-but-economies-face-risks"
+        },
+        {
+            "id": "4649224",
+            "publish_time": "2023-11-08T13:43:49-05:00",
+            "title": "The Bear Nucleus: Skepticism Over NuScale",
+            "article_url": "https://seekingalpha.com//article/4649224-bear-nucleus-skepticism-over-nuscale"
+        },
+        {
+            "id": "4649221",
+            "publish_time": "2023-11-08T13:41:45-05:00",
+            "title": "Ferroglobe: Strong Quarter In Soft Market",
+            "article_url": "https://seekingalpha.com//article/4649221-ferroglobe-strong-quarter-in-soft-market"
+        },
+        {
+            "id": "4649218",
+            "publish_time": "2023-11-08T13:33:02-05:00",
+            "title": "Baytex Q3: Ranger Acquisition Already Starting To Pay Off",
+            "article_url": "https://seekingalpha.com//article/4649218-baytex-q3ranger-acquisition-already-starting-to-pay-off"
+        },
+        {
+            "id": "4649215",
+            "publish_time": "2023-11-08T13:26:11-05:00",
+            "title": "Energias de Portugal: Infrastructure Markets Still Decent",
+            "article_url": "https://seekingalpha.com//article/4649215-edp-infrastructure-markets-still-decent"
+        },
+        {
+            "id": "4649220",
+            "publish_time": "2023-11-08T13:20:55-05:00",
+            "title": "TC Energy Stock: 7.4% Dividend Yield, This Is A Fascinating Income Play",
+            "article_url": "https://seekingalpha.com//article/4649220-tc-energy-stock-dividend-yield-fascinating-income-play"
+        },
+        {
+            "id": "4649233",
+            "publish_time": "2023-11-08T13:05:12-05:00",
+            "title": "September Wholesale Trade Report: Red-Hot Growth",
+            "article_url": "https://seekingalpha.com//article/4649233-september-wholesale-trade-report-red-hot-growth"
+        },
+        {
+            "id": "4649198",
+            "publish_time": "2023-11-08T13:01:43-05:00",
+            "title": "The Swatch Group: Is It Time To Buy This Deep-Value Gem?",
+            "article_url": "https://seekingalpha.com//article/4649198-the-swatch-group-is-it-time-to-buy-this-deep-value-gem"
+        },
+        {
+            "id": "4649194",
+            "publish_time": "2023-11-08T12:59:21-05:00",
+            "title": "METV: Still Bullish As AI Steals The Tech Spotlight",
+            "article_url": "https://seekingalpha.com//article/4649194-metv-still-bullish-as-ai-steals-the-tech-spotlight"
+        },
+        {
+            "id": "4649241",
+            "publish_time": "2023-11-08T12:57:18-05:00",
+            "title": "Ducommun Incorporated 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649241-ducommun-incorporated-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649238",
+            "publish_time": "2023-11-08T12:52:18-05:00",
+            "title": "Fuel Tech, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649238-fuel-tech-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649223",
+            "publish_time": "2023-11-08T12:43:04-05:00",
+            "title": "Primerica, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649223-primerica-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649217",
+            "publish_time": "2023-11-08T12:32:09-05:00",
+            "title": "EVgo, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649217-evgo-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649173",
+            "publish_time": "2023-11-08T12:30:47-05:00",
+            "title": "Full Truck Alliance Performs Well As Chinese Road Freight Market Improves",
+            "article_url": "https://seekingalpha.com//article/4649173-full-truck-alliance-performs-well-as-chinese-road-freight-market-improves"
+        },
+        {
+            "id": "4649210",
+            "publish_time": "2023-11-08T12:30:00-05:00",
+            "title": "Alibaba International Sharpens Its Merchant Appeal With New AI Tools",
+            "article_url": "https://seekingalpha.com//article/4649210-alibaba-international-sharpens-merchant-appeal-with-new-ai-tools"
+        },
+        {
+            "id": "4649168",
+            "publish_time": "2023-11-08T12:26:23-05:00",
+            "title": "Journey Energy May Be Diworsifying In The Power Business",
+            "article_url": "https://seekingalpha.com//article/4649168-journey-energy-may-be-diworsifying-power-business"
+        },
+        {
+            "id": "4649159",
+            "publish_time": "2023-11-08T12:16:29-05:00",
+            "title": "NXP Semiconductors: Keeping A Hold Rating Even After Yet Another Strong Quarter",
+            "article_url": "https://seekingalpha.com//article/4649159-nxp-semiconductors-keeping-a-hold-rating-even-after-yet-another-strong-quarter"
+        },
+        {
+            "id": "4649209",
+            "publish_time": "2023-11-08T12:16:15-05:00",
+            "title": "National Health Investors, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649209-national-health-investors-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649207",
+            "publish_time": "2023-11-08T12:13:44-05:00",
+            "title": "VerifyMe, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649207-verifyme-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649206",
+            "publish_time": "2023-11-08T12:11:16-05:00",
+            "title": "Pan American Silver Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649206-pan-american-silver-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649205",
+            "publish_time": "2023-11-08T12:11:14-05:00",
+            "title": "Caesarstone Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649205-caesarstone-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649202",
+            "publish_time": "2023-11-08T12:05:35-05:00",
+            "title": "Starwood Property Trust, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649202-starwood-property-trust-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649156",
+            "publish_time": "2023-11-08T12:03:27-05:00",
+            "title": "ChargePoint's Peril: EV Headwinds Threaten Its Market Grip",
+            "article_url": "https://seekingalpha.com//article/4649156-chargepoints-peril-ev-headwinds-threaten-market-grip"
+        },
+        {
+            "id": "4649199",
+            "publish_time": "2023-11-08T12:02:30-05:00",
+            "title": "Hydro One Limited 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649199-hydro-one-limited-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649153",
+            "publish_time": "2023-11-08T12:01:48-05:00",
+            "title": "The Prognosis For Pulmonx Corporation",
+            "article_url": "https://seekingalpha.com//article/4649153-the-prognosis-for-pulmonx-corporation"
+        },
+        {
+            "id": "4649152",
+            "publish_time": "2023-11-08T12:01:43-05:00",
+            "title": "UnitedHealth Group: Excellent Healthcare Stock To Buy",
+            "article_url": "https://seekingalpha.com//article/4649152-unitedhealth-group-excellent-healthcare-stock-to-buy"
+        },
+        {
+            "id": "4649192",
+            "publish_time": "2023-11-08T11:56:38-05:00",
+            "title": "AFC Gamma, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649192-afc-gamma-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649191",
+            "publish_time": "2023-11-08T11:55:35-05:00",
+            "title": "Ambac Financial Group, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649191-ambac-financial-group-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649172",
+            "publish_time": "2023-11-08T11:55:00-05:00",
+            "title": "Wall Street Lunch: To Smoke Or Not To Smoke?",
+            "article_url": "https://seekingalpha.com//article/4649172-wall-street-lunch-to-smoke-or-not-to-smoke"
+        },
+        {
+            "id": "4649149",
+            "publish_time": "2023-11-08T11:54:37-05:00",
+            "title": "Shockwave Medical: Buying The Dip",
+            "article_url": "https://seekingalpha.com//article/4649149-shockwave-medical-buying-the-dip"
+        },
+        {
+            "id": "4649186",
+            "publish_time": "2023-11-08T11:50:55-05:00",
+            "title": "Keyera Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649186-keyera-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649142",
+            "publish_time": "2023-11-08T11:46:16-05:00",
+            "title": "Amwell Looks To 2024 For Stabilization But Operating Losses Remain High",
+            "article_url": "https://seekingalpha.com//article/4649142-amwell-looks-to-2024-for-stabilization-but-operating-losses-remain-high"
+        },
+        {
+            "id": "4649180",
+            "publish_time": "2023-11-08T11:42:46-05:00",
+            "title": "Kellanova 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649180-kellanova-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649140",
+            "publish_time": "2023-11-08T11:40:28-05:00",
+            "title": "EMLP: High Yield Distribution Amidst Falling Oil Prices",
+            "article_url": "https://seekingalpha.com//article/4649140-emlp-high-yield-distribution-amidst-falling-oil-prices"
+        },
+        {
+            "id": "4649179",
+            "publish_time": "2023-11-08T11:38:07-05:00",
+            "title": "Darling Ingredients Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649179-darling-ingredients-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649144",
+            "publish_time": "2023-11-08T11:34:30-05:00",
+            "title": "Roku Stock: A Buy Amid Tough Market Conditions",
+            "article_url": "https://seekingalpha.com//article/4649144-roku-stock-buy-amid-tough-market-conditions"
+        },
+        {
+            "id": "4649175",
+            "publish_time": "2023-11-08T11:33:18-05:00",
+            "title": "Similarweb Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649175-similarweb-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649170",
+            "publish_time": "2023-11-08T11:28:46-05:00",
+            "title": "The Middleby Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649170-middleby-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649169",
+            "publish_time": "2023-11-08T11:28:41-05:00",
+            "title": "Montrose Environmental Group, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649169-montrose-environmental-group-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649138",
+            "publish_time": "2023-11-08T11:28:40-05:00",
+            "title": "Dynex Capital: Short-Term Rate Support Incoming",
+            "article_url": "https://seekingalpha.com//article/4649138-dynex-capital-short-term-rate-support-incoming"
+        },
+        {
+            "id": "4649137",
+            "publish_time": "2023-11-08T11:27:49-05:00",
+            "title": "Vir Biotechnology: A Relentless Slide In The Stock, Unresponsive To Positive Developments",
+            "article_url": "https://seekingalpha.com//article/4649137-vir-biotechnology-relentless-slide-in-stock-unresponsive-to-positive-developments"
+        },
+        {
+            "id": "4649136",
+            "publish_time": "2023-11-08T11:27:40-05:00",
+            "title": "4 Dividend Aristocrats Signal Buys In November As 6 Await",
+            "article_url": "https://seekingalpha.com//article/4649136-4-dividend-aristocrats-signal-buys-in-november-as-6-await"
+        },
+        {
+            "id": "4649167",
+            "publish_time": "2023-11-08T11:26:10-05:00",
+            "title": "Carlyle Secured Lending Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649167-carlyle-secured-lending-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649166",
+            "publish_time": "2023-11-08T11:24:02-05:00",
+            "title": "Safe Bulkers, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649166-safe-bulkers-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649163",
+            "publish_time": "2023-11-08T11:21:25-05:00",
+            "title": "MasterCraft Boat Holdings, Inc. 2024 Q1 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649163-mastercraft-boat-holdings-inc-2024-q1-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649161",
+            "publish_time": "2023-11-08T11:17:22-05:00",
+            "title": "WildBrain Ltd. 2024 Q1 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649161-wildbrain-ltd-2024-q1-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649127",
+            "publish_time": "2023-11-08T11:15:09-05:00",
+            "title": "SPY: Double-Barreled Buy Signal Works Again, Now What?",
+            "article_url": "https://seekingalpha.com//article/4649127-double-barreled-buy-signal-works-again-now-what"
+        },
+        {
+            "id": "4649157",
+            "publish_time": "2023-11-08T11:05:35-05:00",
+            "title": "The Mosaic Company 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649157-mosaic-company-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649120",
+            "publish_time": "2023-11-08T11:02:41-05:00",
+            "title": "EV Company News For The Month Of October 2023",
+            "article_url": "https://seekingalpha.com//article/4649120-ev-company-news-for-the-month-of-october-2023"
+        },
+        {
+            "id": "4649155",
+            "publish_time": "2023-11-08T11:02:20-05:00",
+            "title": "Warner Bros. Discovery, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649155-warner-bros-discovery-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649150",
+            "publish_time": "2023-11-08T10:57:56-05:00",
+            "title": "Veritone, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649150-veritone-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649115",
+            "publish_time": "2023-11-08T10:50:33-05:00",
+            "title": "Vital Energy: Reduced Leverage After Recent Transactions",
+            "article_url": "https://seekingalpha.com//article/4649115-vital-energy-reduced-leverage-after-recent-transactions"
+        },
+        {
+            "id": "4649114",
+            "publish_time": "2023-11-08T10:46:17-05:00",
+            "title": "AdTheorent: Q3 Release Reaffirms Our Bullishness",
+            "article_url": "https://seekingalpha.com//article/4649114-adtheorent-q3-release-reaffirms-our-bullishness"
+        },
+        {
+            "id": "4649112",
+            "publish_time": "2023-11-08T10:39:49-05:00",
+            "title": "Otis Worldwide: Why You Should Look Past The New Equipment Slowdown",
+            "article_url": "https://seekingalpha.com//article/4649112-otis-worldwide-why-you-should-look-past-the-new-equipment-slowdown"
+        },
+        {
+            "id": "4649111",
+            "publish_time": "2023-11-08T10:39:34-05:00",
+            "title": "RGC Resources: Disappointing Market Performance But Thesis Is Intact",
+            "article_url": "https://seekingalpha.com//article/4649111-rgc-resources-disappointing-market-performance-but-thesis-is-intact"
+        },
+        {
+            "id": "4649110",
+            "publish_time": "2023-11-08T10:38:51-05:00",
+            "title": "McDonald's: Minimal Upside Even With Growth",
+            "article_url": "https://seekingalpha.com//article/4649110-mcdonalds-minimal-upside-even-with-growth"
+        },
+        {
+            "id": "4649107",
+            "publish_time": "2023-11-08T10:31:32-05:00",
+            "title": "MPLX Delivered A Warm (Distribution Increase) November Rain",
+            "article_url": "https://seekingalpha.com//article/4649107-mplx-delivered-distribution-increase"
+        },
+        {
+            "id": "4649139",
+            "publish_time": "2023-11-08T10:31:23-05:00",
+            "title": "Charles River Laboratories International, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649139-charles-river-laboratories-international-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648037",
+            "publish_time": "2023-11-08T10:30:00-05:00",
+            "title": "Surge Q3: Strong Cash Flows, Generous Dividend",
+            "article_url": "https://seekingalpha.com//article/4648037-surge-q3-strong-cash-flows-generous-dividend"
+        },
+        {
+            "id": "4649106",
+            "publish_time": "2023-11-08T10:27:35-05:00",
+            "title": "Biopharma Firm FibroBiologics Seeks U.S. Direct Listing",
+            "article_url": "https://seekingalpha.com//article/4649106-biopharma-firm-fibrobiologics-seeks-us-direct-listing"
+        },
+        {
+            "id": "4649135",
+            "publish_time": "2023-11-08T10:25:37-05:00",
+            "title": "Bayer Aktiengesellschaft 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649135-bayer-aktiengesellschaft-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649104",
+            "publish_time": "2023-11-08T10:22:12-05:00",
+            "title": "Rexford Industrial: On The Way To Restoring Positive Investment Spread",
+            "article_url": "https://seekingalpha.com//article/4649104-rexford-industrial-on-the-way-to-restoring-positive-investment-spread"
+        },
+        {
+            "id": "4649133",
+            "publish_time": "2023-11-08T10:21:11-05:00",
+            "title": "Commerzbank AG 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649133-commerzbank-ag-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649132",
+            "publish_time": "2023-11-08T10:19:51-05:00",
+            "title": "Innoviz Technologies Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649132-innoviz-technologies-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649130",
+            "publish_time": "2023-11-08T10:18:45-05:00",
+            "title": "Vericel Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649130-vericel-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649129",
+            "publish_time": "2023-11-08T10:18:37-05:00",
+            "title": "The ODP Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649129-odp-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649128",
+            "publish_time": "2023-11-08T10:18:22-05:00",
+            "title": "Verano Holdings Corp. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649128-verano-holdings-corp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649125",
+            "publish_time": "2023-11-08T10:15:00-05:00",
+            "title": "Weitz Core Plus Income Fund Q3 2023 Commentary",
+            "article_url": "https://seekingalpha.com//article/4649125-weitz-core-plus-income-fund-q3-2023-commentary"
+        },
+        {
+            "id": "4649102",
+            "publish_time": "2023-11-08T10:14:55-05:00",
+            "title": "Applied Optoelectronics: Q3 Results Should Be Fine, But We're Not Enthused About Going Long",
+            "article_url": "https://seekingalpha.com//article/4649102-applied-optoelectronics-q3-results-fine-but-not-enthused-about-going-long"
+        },
+        {
+            "id": "4649101",
+            "publish_time": "2023-11-08T10:14:36-05:00",
+            "title": "Upstart: Price Matters Both Ways (Rating Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4649101-upstart-price-matters-both-ways-rating-upgrade"
+        },
+        {
+            "id": "4649126",
+            "publish_time": "2023-11-08T10:12:31-05:00",
+            "title": "Katapult Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649126-katapult-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649097",
+            "publish_time": "2023-11-08T10:06:21-05:00",
+            "title": "Voya Financial Will Outperform Competitors For These 3 Reasons",
+            "article_url": "https://seekingalpha.com//article/4649097-voya-financial-outperform-competitors-3-reasons"
+        },
+        {
+            "id": "4649123",
+            "publish_time": "2023-11-08T10:05:49-05:00",
+            "title": "CrossAmerica Partners LP 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649123-crossamerica-partners-lp-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649122",
+            "publish_time": "2023-11-08T10:04:41-05:00",
+            "title": "Clear Channel Outdoor Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649122-clear-channel-outdoor-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649121",
+            "publish_time": "2023-11-08T10:04:30-05:00",
+            "title": "Rayonier Advanced Materials Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649121-rayonier-advanced-materials-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648287",
+            "publish_time": "2023-11-08T10:00:00-05:00",
+            "title": "Thacker Pass: Unpacking The Massive Exploration Upside",
+            "article_url": "https://seekingalpha.com//article/4648287-thacker-pass-unpacking-the-massive-exploration-upside"
+        },
+        {
+            "id": "4648662",
+            "publish_time": "2023-11-08T10:00:00-05:00",
+            "title": "SoFi: The Breakout Approaches In 2024",
+            "article_url": "https://seekingalpha.com//article/4648662-sofi-the-breakout-approaches-in-2024"
+        },
+        {
+            "id": "4649117",
+            "publish_time": "2023-11-08T10:00:00-05:00",
+            "title": "Weitz Conservative Allocation Fund Q3 2023 Commentary",
+            "article_url": "https://seekingalpha.com//article/4649117-weitz-conservative-allocation-fund-q3-2023-commentary"
+        },
+        {
+            "id": "4649116",
+            "publish_time": "2023-11-08T09:51:07-05:00",
+            "title": "Ramaco Resources, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649116-ramaco-resources-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649095",
+            "publish_time": "2023-11-08T09:50:48-05:00",
+            "title": "Daimler Truck: What To Consider If Orders Decrease",
+            "article_url": "https://seekingalpha.com//article/4649095-daimler-truck-what-to-consider-if-orders-decrease"
+        },
+        {
+            "id": "4649094",
+            "publish_time": "2023-11-08T09:49:20-05:00",
+            "title": "Solar Stocks Still Searching For A Bottom",
+            "article_url": "https://seekingalpha.com//article/4649094-solar-stocks-still-searching-for-a-bottom"
+        },
+        {
+            "id": "4649113",
+            "publish_time": "2023-11-08T09:45:00-05:00",
+            "title": "Weitz Partners III Opportunity Fund Q3 2023 Commentary",
+            "article_url": "https://seekingalpha.com//article/4649113-weitz-partners-iii-opportunity-fund-q3-2023-commentary"
+        },
+        {
+            "id": "4649109",
+            "publish_time": "2023-11-08T09:36:02-05:00",
+            "title": "CGI Inc. 2023 Q4 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649109-cgi-inc-2023-q4-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649108",
+            "publish_time": "2023-11-08T09:35:27-05:00",
+            "title": "Masonite International Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649108-masonite-international-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649103",
+            "publish_time": "2023-11-08T09:35:00-05:00",
+            "title": "The Hydrogen Revolution Has Begun",
+            "article_url": "https://seekingalpha.com//article/4649103-hydrogen-revolution-begun"
+        },
+        {
+            "id": "4649105",
+            "publish_time": "2023-11-08T09:30:00-05:00",
+            "title": "Weitz Multi Cap Equity Fund Q3 2023 Commentary",
+            "article_url": "https://seekingalpha.com//article/4649105-weitz-multi-cap-equity-fund-q3-2023-commentary"
+        },
+        {
+            "id": "4649099",
+            "publish_time": "2023-11-08T09:25:00-05:00",
+            "title": "The Multifaceted World Of Equity Options: A Dive Into Utility",
+            "article_url": "https://seekingalpha.com//article/4649099-multifaceted-world-of-equity-options-dive-into-utility"
+        },
+        {
+            "id": "4649082",
+            "publish_time": "2023-11-08T09:16:52-05:00",
+            "title": "Paycom Gives Me Flashbacks Of DocuSign Crash: Shares Are Not A Buy",
+            "article_url": "https://seekingalpha.com//article/4649082-paycom-gives-me-flashbacks-of-docusign-crash-shares-not-a-buy"
+        },
+        {
+            "id": "4649096",
+            "publish_time": "2023-11-08T09:15:35-05:00",
+            "title": "Warner Bros. Discovery Q3 Earnings Show Progress, But It's Still Not A Buy",
+            "article_url": "https://seekingalpha.com//article/4649096-warner-bros-discovery-q3-earnings-show-progress-but-still-not-a-buy"
+        },
+        {
+            "id": "4649090",
+            "publish_time": "2023-11-08T09:15:04-05:00",
+            "title": "Enovix Q3 Earnings: Accelerating Towards Modern Battery Dominance",
+            "article_url": "https://seekingalpha.com//article/4649090-enovix-q3-earnings-accelerating-towards-modern-battery-dominance"
+        },
+        {
+            "id": "4649100",
+            "publish_time": "2023-11-08T09:15:00-05:00",
+            "title": "Weitz Large Cap Equity Fund Q3 2023 Commentary",
+            "article_url": "https://seekingalpha.com//article/4649100-weitz-large-cap-equity-fund-q3-2023-commentary"
+        },
+        {
+            "id": "4649078",
+            "publish_time": "2023-11-08T09:11:00-05:00",
+            "title": "Get Used To Higher Rates And Inflation - Focus On These Assets",
+            "article_url": "https://seekingalpha.com//article/4649078-get-used-higher-rates-inflation-focus-these-assets"
+        },
+        {
+            "id": "4649088",
+            "publish_time": "2023-11-08T09:00:35-05:00",
+            "title": "Bears Beware Historical Precedents",
+            "article_url": "https://seekingalpha.com//article/4649088-bears-beware-historical-precedents"
+        },
+        {
+            "id": "4649029",
+            "publish_time": "2023-11-08T09:00:00-05:00",
+            "title": "Hannon Armstrong: This Underperformer Is On The Verge Of A Pivotal Inflection",
+            "article_url": "https://seekingalpha.com//article/4649029-hannon-armstrong-underperformer-verge-of-pivotal-inflection"
+        },
+        {
+            "id": "4649073",
+            "publish_time": "2023-11-08T08:59:29-05:00",
+            "title": "XRE ETF: Canada Seems To Have A Bigger Inflation Problem",
+            "article_url": "https://seekingalpha.com//article/4649073-xre-etf-canada-seems-to-have-a-bigger-inflation-problem"
+        },
+        {
+            "id": "4649070",
+            "publish_time": "2023-11-08T08:49:03-05:00",
+            "title": "No Good Reason To Bother With Brookfield Infrastructure Partners",
+            "article_url": "https://seekingalpha.com//article/4649070-no-good-reason-bother-brookfield-infrastructure-partners-stock"
+        },
+        {
+            "id": "4649085",
+            "publish_time": "2023-11-08T08:45:39-05:00",
+            "title": "Upstart Holdings' 2024 Vision: Navigating Challenges, Striving For Growth",
+            "article_url": "https://seekingalpha.com//article/4649085-upstart-holdings-2024-vision-navigating-challenges-striving-for-growth"
+        },
+        {
+            "id": "4649083",
+            "publish_time": "2023-11-08T08:45:02-05:00",
+            "title": "Mosaic Stock: A Very Bullish Message For Shareholders",
+            "article_url": "https://seekingalpha.com//article/4649083-mosaic-stock-bullish-message-shareholders"
+        },
+        {
+            "id": "4649093",
+            "publish_time": "2023-11-08T08:45:02-05:00",
+            "title": "Roblox Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649093-roblox-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649092",
+            "publish_time": "2023-11-08T08:42:43-05:00",
+            "title": "Lumentum Holdings Inc. 2024 Q1 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649092-lumentum-holdings-inc-2024-q1-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649067",
+            "publish_time": "2023-11-08T08:36:59-05:00",
+            "title": "Argan: Encouraging Near-Term Trends Point To Further Share Price Gains",
+            "article_url": "https://seekingalpha.com//article/4649067-argan-encouraging-near-term-trends-point-to-further-share-price-gains"
+        },
+        {
+            "id": "4649066",
+            "publish_time": "2023-11-08T08:36:51-05:00",
+            "title": "Fat Brands: Treading The Line Between Expansion And Overreach",
+            "article_url": "https://seekingalpha.com//article/4649066-fat-brands-treading-the-line-between-expansion-and-overreach"
+        },
+        {
+            "id": "4649087",
+            "publish_time": "2023-11-08T08:30:33-05:00",
+            "title": "Payoneer Global Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649087-payoneer-global-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648270",
+            "publish_time": "2023-11-08T08:30:00-05:00",
+            "title": "Visa: Buybacks And Dividend Growth Make This Stock An Attractive Buy",
+            "article_url": "https://seekingalpha.com//article/4648270-visa-buybacks-and-dividend-growth-make-this-stock-an-attractive-buy"
+        },
+        {
+            "id": "4649084",
+            "publish_time": "2023-11-08T08:30:00-05:00",
+            "title": "MCJ Capital - Kneat.Com: Cornering The Top 20 Global Pharmas",
+            "article_url": "https://seekingalpha.com//article/4649084-kneatcom-stock-cornering-the-top-20-global-pharmas"
+        },
+        {
+            "id": "4649063",
+            "publish_time": "2023-11-08T08:26:35-05:00",
+            "title": "The Bottom Fishing Club: Intrepid Potash",
+            "article_url": "https://seekingalpha.com//article/4649063-intrepid-potash-stock-bottom-fishing-club"
+        },
+        {
+            "id": "4649062",
+            "publish_time": "2023-11-08T08:26:06-05:00",
+            "title": "Fair Isaac: Fundamentals Set To Improve",
+            "article_url": "https://seekingalpha.com//article/4649062-fair-isaac-fundamentals-set-to-improve"
+        },
+        {
+            "id": "4649077",
+            "publish_time": "2023-11-08T08:15:00-05:00",
+            "title": "MCJ Capital - RediShred Capital: A Way To Compound Capital",
+            "article_url": "https://seekingalpha.com//article/4649077-redishred-capital-stock-a-way-to-compound-capital"
+        },
+        {
+            "id": "4649080",
+            "publish_time": "2023-11-08T08:13:16-05:00",
+            "title": "Biogen Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649080-biogen-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649079",
+            "publish_time": "2023-11-08T08:12:44-05:00",
+            "title": "E.ON SE 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649079-e-on-se-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649060",
+            "publish_time": "2023-11-08T08:10:28-05:00",
+            "title": "WaFd Continues To Perform Remarkably Well",
+            "article_url": "https://seekingalpha.com//article/4649060-wafd-continues-to-perform-remarkably-well"
+        },
+        {
+            "id": "4649076",
+            "publish_time": "2023-11-08T08:08:33-05:00",
+            "title": "Warby Parker Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649076-warby-parker-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649058",
+            "publish_time": "2023-11-08T08:08:05-05:00",
+            "title": "Crescent Point Energy Makes A Good Strategic Move In Acquiring Hammerhead Energy",
+            "article_url": "https://seekingalpha.com//article/4649058-crescent-point-energy-good-strategic-move-in-acquiring-hammerhead-energy"
+        },
+        {
+            "id": "4648994",
+            "publish_time": "2023-11-08T08:06:00-05:00",
+            "title": "PayPal: Maintaining Hold - Expects In-Line Performance Through H1 2024",
+            "article_url": "https://seekingalpha.com//article/4648994-paypal-maintaining-hold-expects-in-line-performance-through-h1-2024"
+        },
+        {
+            "id": "4649074",
+            "publish_time": "2023-11-08T08:05:00-05:00",
+            "title": "MCJ Capital - Constellation Software: An Exciting Acquisition Machine",
+            "article_url": "https://seekingalpha.com//article/4649074-mcj-capital-constellation-software-an-exciting-acquisition-machine"
+        },
+        {
+            "id": "4649057",
+            "publish_time": "2023-11-08T08:04:15-05:00",
+            "title": "Countdown To Clarity: EyePoint's December Data Delivery",
+            "article_url": "https://seekingalpha.com//article/4649057-countdown-to-clarity-eyepoint-december-data-delivery"
+        },
+        {
+            "id": "4648437",
+            "publish_time": "2023-11-08T08:00:00-05:00",
+            "title": "Realty Income: A Round Trip Down In The $40s And Back Into The $50s",
+            "article_url": "https://seekingalpha.com//article/4648437-realty-income-a-round-trip-down-in-the-40s-and-back-into-the-50s"
+        },
+        {
+            "id": "4648978",
+            "publish_time": "2023-11-08T08:00:00-05:00",
+            "title": "Upstart Q3: Horror Show, I'm Staying On The Sidelines Here",
+            "article_url": "https://seekingalpha.com//article/4648978-upstart-q3-horror-show-staying-on-sidelines"
+        },
+        {
+            "id": "4649020",
+            "publish_time": "2023-11-08T08:00:00-05:00",
+            "title": "NerdWallet: Solid Performance, Sound Fundamentals, And Cheap Stock Make It A Buy",
+            "article_url": "https://seekingalpha.com//article/4649020-nerdwallet-solid-performance-sound-fundamentals-cheap-stock-buy"
+        },
+        {
+            "id": "4649056",
+            "publish_time": "2023-11-08T07:59:30-05:00",
+            "title": "Datadog Q3 Earnings: Snapping Back With Vengeance",
+            "article_url": "https://seekingalpha.com//article/4649056-datadog-q3-earnings-snapping-back-with-vengeance"
+        },
+        {
+            "id": "4649072",
+            "publish_time": "2023-11-08T07:58:51-05:00",
+            "title": "Mowi ASA 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649072-mowi-asa-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649055",
+            "publish_time": "2023-11-08T07:57:47-05:00",
+            "title": "Mueller Water: A Cybersecurity Incident Is Not Ideal, But Appears Cheap",
+            "article_url": "https://seekingalpha.com//article/4649055-mueller-water-a-cybersecurity-incident-is-not-ideal-but-appears-cheap"
+        },
+        {
+            "id": "4649069",
+            "publish_time": "2023-11-08T07:55:00-05:00",
+            "title": "Voss Capital - ECN Capital: Still A Clear Event Path From Here",
+            "article_url": "https://seekingalpha.com//article/4649069-ecn-capital-stock-still-a-clear-event-path-from-here"
+        },
+        {
+            "id": "4649071",
+            "publish_time": "2023-11-08T07:54:55-05:00",
+            "title": "BigCommerce Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649071-bigcommerce-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649068",
+            "publish_time": "2023-11-08T07:37:37-05:00",
+            "title": "BlackSky Technology Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649068-blacksky-technology-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649065",
+            "publish_time": "2023-11-08T07:36:13-05:00",
+            "title": "Teva Pharmaceutical Industries Limited 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649065-teva-pharmaceutical-industries-limited-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648331",
+            "publish_time": "2023-11-08T07:35:00-05:00",
+            "title": "2 Fat Yields I'm Buying For An Abundant Retirement",
+            "article_url": "https://seekingalpha.com//article/4648331-2-fat-yields-im-buying-for-an-abundant-retirement"
+        },
+        {
+            "id": "4649064",
+            "publish_time": "2023-11-08T07:34:15-05:00",
+            "title": "RADCOM Ltd. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649064-radcom-ltd-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649053",
+            "publish_time": "2023-11-08T07:28:12-05:00",
+            "title": "Costamare PFD E: Just Doesn't Stand Up Properly To Benchmarks",
+            "article_url": "https://seekingalpha.com//article/4649053-costamare-pfd-e-just-doesnt-stand-up-properly-to-benchmarks"
+        },
+        {
+            "id": "4649061",
+            "publish_time": "2023-11-08T07:22:15-05:00",
+            "title": "Adient plc 2023 Q4 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649061-adient-plc-2023-q4-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649051",
+            "publish_time": "2023-11-08T07:20:32-05:00",
+            "title": "Blue Owl: $1 Dividend By 2025 Likely A Stretch, But Upside Remains Significant",
+            "article_url": "https://seekingalpha.com//article/4649051-blue-owl-1-dividend-by-2025-likely-stretch-upside-significant"
+        },
+        {
+            "id": "4648144",
+            "publish_time": "2023-11-08T07:15:00-05:00",
+            "title": "7 Dividend Aristocrats You Should Buy Before It's Too Late",
+            "article_url": "https://seekingalpha.com//article/4648144-7-dividend-aristocrats-you-should-buy-before-too-late"
+        },
+        {
+            "id": "4649059",
+            "publish_time": "2023-11-08T07:15:00-05:00",
+            "title": "Greenback Returns Better Bid",
+            "article_url": "https://seekingalpha.com//article/4649059-greenback-returns-better-bid"
+        },
+        {
+            "id": "4649050",
+            "publish_time": "2023-11-08T07:14:13-05:00",
+            "title": "Wall Street Breakfast: High In Ohio",
+            "article_url": "https://seekingalpha.com//article/4649050-wall-street-breakfast-high-in-ohio"
+        },
+        {
+            "id": "4649049",
+            "publish_time": "2023-11-08T07:13:40-05:00",
+            "title": "SPY: Don't Believe Mr. Market And Stay On The Sidelines",
+            "article_url": "https://seekingalpha.com//article/4649049-spy-dont-believe-mr-market-stay-on-sidelines"
+        },
+        {
+            "id": "4648696",
+            "publish_time": "2023-11-08T07:00:00-05:00",
+            "title": "More Than 20,000 Net Lease Rent Checks Collected To Help Investors Sleep Well At Night",
+            "article_url": "https://seekingalpha.com//article/4648696-more-than-20000-net-lease-rent-checks-collected-to-help-investors-sleep-well-at-night"
+        },
+        {
+            "id": "4649047",
+            "publish_time": "2023-11-08T06:57:14-05:00",
+            "title": "Savaria: Strong Q3 2023 Results Shift Momentum",
+            "article_url": "https://seekingalpha.com//article/4649047-savaria-strong-q3-2023-results-shift-momentum"
+        },
+        {
+            "id": "4649054",
+            "publish_time": "2023-11-08T06:43:51-05:00",
+            "title": "Wall Street Breakfast Podcast: Credit Card Debt Hits New Record",
+            "article_url": "https://seekingalpha.com//article/4649054-wall-street-breakfast-podcast-credit-card-debt-hits-new-record"
+        },
+        {
+            "id": "4649043",
+            "publish_time": "2023-11-08T06:34:00-05:00",
+            "title": "How Green Innovation Can Stimulate Economies And Curb Emissions",
+            "article_url": "https://seekingalpha.com//article/4649043-how-green-innovation-stimulate-economies-curb-emissions"
+        },
+        {
+            "id": "4649041",
+            "publish_time": "2023-11-08T06:32:56-05:00",
+            "title": "Collapsing Inflation Expectation Is Likely Driving The Rally In Stocks",
+            "article_url": "https://seekingalpha.com//article/4649041-collapsing-inflation-expectation-likely-driving-rally-in-stocks"
+        },
+        {
+            "id": "4649052",
+            "publish_time": "2023-11-08T06:30:00-05:00",
+            "title": "MCJ Capital Partners Q3 2023 Letter",
+            "article_url": "https://seekingalpha.com//article/4649052-mcj-capital-partners-q3-2023-letter"
+        },
+        {
+            "id": "4649040",
+            "publish_time": "2023-11-08T06:24:32-05:00",
+            "title": "Bank of America: Technical Strength Persists Alongside Strong Financial Health",
+            "article_url": "https://seekingalpha.com//article/4649040-bank-of-america-technical-strength-persists-alongside-strong-financial-health"
+        },
+        {
+            "id": "4649046",
+            "publish_time": "2023-11-08T06:15:00-05:00",
+            "title": "Q3 2023 Midstream Dividend Recap: MLPs Bring The Growth",
+            "article_url": "https://seekingalpha.com//article/4649046-q3-2023-midstream-dividend-recap-mlps-bring-growth"
+        },
+        {
+            "id": "4649039",
+            "publish_time": "2023-11-08T06:12:53-05:00",
+            "title": "Uber: Impressive Q3, Major Step Towards S&P 500 Inclusion",
+            "article_url": "https://seekingalpha.com//article/4649039-uber-impressive-q3-earnings-major-step-towards-sp-500-inclusion"
+        },
+        {
+            "id": "4649048",
+            "publish_time": "2023-11-08T06:10:00-05:00",
+            "title": "Voss Capital - CRH Plc: Undeniable Value Hiding In Plain Sight",
+            "article_url": "https://seekingalpha.com//article/4649048-crh-stock-undeniable-value-hiding-in-plain-sight"
+        },
+        {
+            "id": "4649038",
+            "publish_time": "2023-11-08T06:09:05-05:00",
+            "title": "Toast: Buy The Post-Earnings Dip",
+            "article_url": "https://seekingalpha.com//article/4649038-toast-buy-post-earnings-dip"
+        },
+        {
+            "id": "4649035",
+            "publish_time": "2023-11-08T06:02:18-05:00",
+            "title": "Intel: Turnaround Picks Up Speed",
+            "article_url": "https://seekingalpha.com//article/4649035-intel-turnaround-picks-up-speed"
+        },
+        {
+            "id": "4649044",
+            "publish_time": "2023-11-08T06:00:00-05:00",
+            "title": "As The Fed Takes A Wait-And-See Approach To Rates, Why Some Are Looking Ahead To Cuts",
+            "article_url": "https://seekingalpha.com//article/4649044-fed-takes-wait-and-see-approach-to-rates-why-some-are-looking-ahead-to-cuts"
+        },
+        {
+            "id": "4649042",
+            "publish_time": "2023-11-08T05:40:00-05:00",
+            "title": "Voss Capital Q3 2023 Letter To Partners",
+            "article_url": "https://seekingalpha.com//article/4649042-voss-capital-q3-2023-letter-to-partners"
+        },
+        {
+            "id": "4649033",
+            "publish_time": "2023-11-08T05:29:00-05:00",
+            "title": "Bond Bear Market - Is It Dead, Or Just Hibernating?",
+            "article_url": "https://seekingalpha.com//article/4649033-bond-bear-market-dead-or-just-hibernating"
+        },
+        {
+            "id": "4649036",
+            "publish_time": "2023-11-08T05:15:00-05:00",
+            "title": "Henderson Land Gets $7.7 Billion Helping Hand In Drive To Become New 'King of Central'",
+            "article_url": "https://seekingalpha.com//article/4649036-henderson-land-gets-7-7-billion-helping-hand-in-drive-to-become-new-king-of-central"
+        },
+        {
+            "id": "4649028",
+            "publish_time": "2023-11-08T05:00:38-05:00",
+            "title": "Mynaric: Not The Lasercom Tech Stock With Futuristic Stock Price Growth",
+            "article_url": "https://seekingalpha.com//article/4649028-mynaric-not-lasercom-tech-stock-with-futuristic-stock-price-growth"
+        },
+        {
+            "id": "4648851",
+            "publish_time": "2023-11-08T05:00:00-05:00",
+            "title": "SCHF: Domestic Equities Still Offer The Most Compelling Risk/Reward",
+            "article_url": "https://seekingalpha.com//article/4648851-schf-domestic-equities-still-offer-most-compelling-riskreward"
+        },
+        {
+            "id": "4649027",
+            "publish_time": "2023-11-08T04:57:43-05:00",
+            "title": "Federated Hermes: Good Candidate For Peak Rates Theme",
+            "article_url": "https://seekingalpha.com//article/4649027-federated-hermes-good-candidate-for-peak-rates-theme"
+        },
+        {
+            "id": "4649034",
+            "publish_time": "2023-11-08T04:55:00-05:00",
+            "title": "Headwaters Capital Q3 2023 Investor Letter",
+            "article_url": "https://seekingalpha.com//article/4649034-headwaters-capital-q3-2023-investor-letter"
+        },
+        {
+            "id": "4649026",
+            "publish_time": "2023-11-08T04:54:39-05:00",
+            "title": "EEM: Valuation Not Expensive, But Exposure To China Not Favorable",
+            "article_url": "https://seekingalpha.com//article/4649026-eem-valuation-not-expensive-exposure-to-china-not-favorable"
+        },
+        {
+            "id": "4649023",
+            "publish_time": "2023-11-08T04:53:15-05:00",
+            "title": "Freshpet: Pet Market Is Lucrative But Patience Is Key",
+            "article_url": "https://seekingalpha.com//article/4649023-freshpet-pet-market-is-lucrative-but-patience-is-key"
+        },
+        {
+            "id": "4649022",
+            "publish_time": "2023-11-08T04:48:58-05:00",
+            "title": "AI Innovation: NetEase Drives Engagement With User-Generated Content",
+            "article_url": "https://seekingalpha.com//article/4649022-ai-innovation-netease-drives-engagement-with-user-generated-content"
+        },
+        {
+            "id": "4649019",
+            "publish_time": "2023-11-08T04:42:01-05:00",
+            "title": "Palantir: Robust Profitability And AIP Growth, Maintain 'Hold'",
+            "article_url": "https://seekingalpha.com//article/4649019-palantir-stock-q3-earnings-robust-profitability-aip-growth-maintain-hold"
+        },
+        {
+            "id": "4649018",
+            "publish_time": "2023-11-08T04:40:06-05:00",
+            "title": "Air Lease: A Strong Quarter But Balance Sheet Repair Delays Upside",
+            "article_url": "https://seekingalpha.com//article/4649018-air-lease-a-strong-quarter-but-balance-sheet-repair-delays-upside"
+        },
+        {
+            "id": "4649032",
+            "publish_time": "2023-11-08T04:28:42-05:00",
+            "title": "Devon Energy Corporation 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649032-devon-energy-corporation-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649017",
+            "publish_time": "2023-11-08T04:22:22-05:00",
+            "title": "MDY: Balance Drawdowns Amid Fresh Risk Appetite For Equities",
+            "article_url": "https://seekingalpha.com//article/4649017-mdy-balance-drawdowns-amid-fresh-risk-appetite-for-equities"
+        },
+        {
+            "id": "4649031",
+            "publish_time": "2023-11-08T04:22:06-05:00",
+            "title": "Vroom, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649031-vroom-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649016",
+            "publish_time": "2023-11-08T04:21:18-05:00",
+            "title": "5 Kings And Aristocrats Selling At Decade High Dividend Yields",
+            "article_url": "https://seekingalpha.com//article/4649016-5-kings-and-aristocrats-selling-at-decade-high-dividend-yields"
+        },
+        {
+            "id": "4649030",
+            "publish_time": "2023-11-08T04:18:35-05:00",
+            "title": "M\u00fcnchener R\u00fcckversicherungs-Gesellschaft Aktiengesellschaft in M\u00fcnchen 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649030-munchener-ruckversicherungs-gesellschaft-aktiengesellschaft-in-munchen-2023-q3-results"
+        },
+        {
+            "id": "4649015",
+            "publish_time": "2023-11-08T04:14:58-05:00",
+            "title": "Clarivate: In Search Of Growth",
+            "article_url": "https://seekingalpha.com//article/4649015-clarivate-stock-q3-2023-earnings-stretched-balance-sheet-hold"
+        },
+        {
+            "id": "4649014",
+            "publish_time": "2023-11-08T04:14:50-05:00",
+            "title": "Tile Shop Holdings: Clear Winner In Home Improvement Space Once Housing Sector Turns Around",
+            "article_url": "https://seekingalpha.com//article/4649014-tile-shop-holdings-clear-winner-home-improvement-once-housing-sector-turns-around"
+        },
+        {
+            "id": "4649013",
+            "publish_time": "2023-11-08T04:12:07-05:00",
+            "title": "Is Lucid Stock A Sell After Q3 Earnings? (Rating Downgrade)",
+            "article_url": "https://seekingalpha.com//article/4649013-is-lucid-stock-sell-after-q3-earnings-rating-downgrade"
+        },
+        {
+            "id": "4649011",
+            "publish_time": "2023-11-08T04:07:15-05:00",
+            "title": "E.W. Scripps: Business And Balance Sheet Challenges Set To Persist",
+            "article_url": "https://seekingalpha.com//article/4649011-ew-scripps-business-and-balance-sheet-challenges-set-to-persist"
+        },
+        {
+            "id": "4649010",
+            "publish_time": "2023-11-08T04:05:32-05:00",
+            "title": "Tenaris: Steel Pipes Out Of Europe With An Upside",
+            "article_url": "https://seekingalpha.com//article/4649010-tenaris-stock-steel-pipes-out-of-europe-with-upside"
+        },
+        {
+            "id": "4649004",
+            "publish_time": "2023-11-08T03:54:37-05:00",
+            "title": "The Month In Closed-End Funds: October 2023",
+            "article_url": "https://seekingalpha.com//article/4649004-the-month-in-closed-end-funds-october-2023"
+        },
+        {
+            "id": "4649024",
+            "publish_time": "2023-11-08T03:53:46-05:00",
+            "title": "Maravai LifeSciences Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649024-maravai-lifesciences-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649021",
+            "publish_time": "2023-11-08T03:50:00-05:00",
+            "title": "Desert Lion Capital Q3 2023 Investor Letter",
+            "article_url": "https://seekingalpha.com//article/4649021-desert-lion-capital-q3-2023-investor-letter"
+        },
+        {
+            "id": "4649003",
+            "publish_time": "2023-11-08T03:49:53-05:00",
+            "title": "Black Hills Corporation Still In The Black",
+            "article_url": "https://seekingalpha.com//article/4649003-black-hills-corporation-still-in-the-black"
+        },
+        {
+            "id": "4649002",
+            "publish_time": "2023-11-08T03:47:01-05:00",
+            "title": "NOW Inc.: Steady Drivers But Lacks A Punch In The Short Term",
+            "article_url": "https://seekingalpha.com//article/4649002-now-inc-steady-drivers-but-lacks-a-punch-in-the-short-term"
+        },
+        {
+            "id": "4649001",
+            "publish_time": "2023-11-08T03:42:16-05:00",
+            "title": "QDF: Apple-Heavy Dividend Vehicle Still Does Not Appeal To Me",
+            "article_url": "https://seekingalpha.com//article/4649001-qdf-apple-heavy-dividend-vehicle-still-does-not-appeal-hold"
+        },
+        {
+            "id": "4649000",
+            "publish_time": "2023-11-08T03:33:18-05:00",
+            "title": "Watsco: Staying Chill For Now",
+            "article_url": "https://seekingalpha.com//article/4649000-watsco-staying-chill-for-now"
+        },
+        {
+            "id": "4648998",
+            "publish_time": "2023-11-08T03:29:23-05:00",
+            "title": "Hasbro: Macroeconomic Challenges Is Taking Its Toll",
+            "article_url": "https://seekingalpha.com//article/4648998-hasbro-macroeconomic-challenges-is-taking-its-toll-on-has"
+        },
+        {
+            "id": "4648997",
+            "publish_time": "2023-11-08T03:28:48-05:00",
+            "title": "Apple Could Offer A Very Decent Near-Term Upside",
+            "article_url": "https://seekingalpha.com//article/4648997-apple-could-offer-a-very-decent-near-term-upside"
+        },
+        {
+            "id": "4648996",
+            "publish_time": "2023-11-08T03:28:05-05:00",
+            "title": "Tilray Is Better Than Its Cannabis Peers",
+            "article_url": "https://seekingalpha.com//article/4648996-tilray-better-than-cannabis-peers"
+        },
+        {
+            "id": "4648977",
+            "publish_time": "2023-11-08T03:28:00-05:00",
+            "title": "Hilton Grand Vacations: Questionable M&A Makes Shares Unattractive",
+            "article_url": "https://seekingalpha.com//article/4648977-hilton-grand-vacations-earnings-questionable-acquisition-makes-stock-unattractive"
+        },
+        {
+            "id": "4648995",
+            "publish_time": "2023-11-08T03:26:13-05:00",
+            "title": "BKT: Sell Before The Distribution Is Cut",
+            "article_url": "https://seekingalpha.com//article/4648995-bkt-cef-sell-before-distribution-cut"
+        },
+        {
+            "id": "4648993",
+            "publish_time": "2023-11-08T03:23:38-05:00",
+            "title": "Alliance Resource: Coal Miner With Solid Financials And Exceptional Dividend Yields",
+            "article_url": "https://seekingalpha.com//article/4648993-alliance-resource-coal-miner-solid-financials-exceptional-dividend-yields"
+        },
+        {
+            "id": "4648989",
+            "publish_time": "2023-11-08T03:18:52-05:00",
+            "title": "Inter & Co: Q3 Earnings, More Positives Than Negatives",
+            "article_url": "https://seekingalpha.com//article/4648989-inter-and-co-q3-earnings-more-positives-than-negatives"
+        },
+        {
+            "id": "4648988",
+            "publish_time": "2023-11-08T03:16:06-05:00",
+            "title": "Alkermes' OX2R Agonist For Narcolepsy Peaks Interest Amidst Strong Q3 Earnings",
+            "article_url": "https://seekingalpha.com//article/4648988-alkermes-ox2r-agonist-for-narcolepsy-peaks-interest-amidst-strong-q3-earnings"
+        },
+        {
+            "id": "4648985",
+            "publish_time": "2023-11-08T03:13:33-05:00",
+            "title": "Toast Earnings: Revenue Growth Challenges In A Competitive Market",
+            "article_url": "https://seekingalpha.com//article/4648985-toast-earnings-revenue-growth-challenges-in-competitive-market"
+        },
+        {
+            "id": "4648984",
+            "publish_time": "2023-11-08T03:11:10-05:00",
+            "title": "Chevron: Time To Be Greedy (Rating Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4648984-chevron-stock-time-to-be-greedy-rating-upgrade"
+        },
+        {
+            "id": "4648983",
+            "publish_time": "2023-11-08T03:10:51-05:00",
+            "title": "Gold Fields: Earnings Upside Expected, Shares May Test The High Teens Soon",
+            "article_url": "https://seekingalpha.com//article/4648983-gold-fields-earnings-upside-expected-shares-may-test-high-teens-soon-maintain-buy"
+        },
+        {
+            "id": "4649012",
+            "publish_time": "2023-11-08T03:09:11-05:00",
+            "title": "Nextdoor Holdings, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649012-nextdoor-holdings-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648982",
+            "publish_time": "2023-11-08T03:05:14-05:00",
+            "title": "Costco: A Strong Company With A Wide Moat At A Fair Price",
+            "article_url": "https://seekingalpha.com//article/4648982-costco-strong-company-wide-moat-fair-price"
+        },
+        {
+            "id": "4649009",
+            "publish_time": "2023-11-08T03:01:27-05:00",
+            "title": "LegalZoom.com, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649009-legalzoom-com-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649008",
+            "publish_time": "2023-11-08T03:00:41-05:00",
+            "title": "Zymeworks Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649008-zymeworks-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648990",
+            "publish_time": "2023-11-08T03:00:00-05:00",
+            "title": "RBA Hikes Rates - Market Reaction Is Curious",
+            "article_url": "https://seekingalpha.com//article/4648990-rba-hikes-rates-market-reaction-is-curious"
+        },
+        {
+            "id": "4649007",
+            "publish_time": "2023-11-08T02:59:28-05:00",
+            "title": "PetIQ, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649007-petiq-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4649006",
+            "publish_time": "2023-11-08T02:59:02-05:00",
+            "title": "D.R. Horton, Inc. 2023 Q4 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4649006-d-r-horton-inc-2023-q4-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648980",
+            "publish_time": "2023-11-08T02:57:42-05:00",
+            "title": "HireQuest: A Good Option In An Economic Recovery, But A Hold Now",
+            "article_url": "https://seekingalpha.com//article/4648980-hirequest-a-good-option-in-an-economic-recovery-but-a-hold-now"
+        },
+        {
+            "id": "4648979",
+            "publish_time": "2023-11-08T02:56:31-05:00",
+            "title": "Iron Mountain: Put This REIT On Your Shopping List After A Record Quarter",
+            "article_url": "https://seekingalpha.com//article/4648979-iron-mountain-put-this-reit-on-your-shopping-list-after-a-record-quarter"
+        },
+        {
+            "id": "4648976",
+            "publish_time": "2023-11-08T02:48:39-05:00",
+            "title": "Motorola Solutions: Mapping The Future Amid Competitive Challenges",
+            "article_url": "https://seekingalpha.com//article/4648976-motorola-solutions-mapping-future-amid-competitive-challenges"
+        },
+        {
+            "id": "4648975",
+            "publish_time": "2023-11-08T02:46:00-05:00",
+            "title": "October 2023 Passive Income Update",
+            "article_url": "https://seekingalpha.com//article/4648975-october-2023-passive-income-update"
+        },
+        {
+            "id": "4648972",
+            "publish_time": "2023-11-08T02:36:08-05:00",
+            "title": "Grosvenor Capital Management: An Attractive And Sustainable Dividend",
+            "article_url": "https://seekingalpha.com//article/4648972-grosvenor-capital-management-stock-attractive-sustainable-dividend"
+        },
+        {
+            "id": "4648970",
+            "publish_time": "2023-11-08T02:31:56-05:00",
+            "title": "Mobileye Global: 2024 Looks To Be A Year Of Inflection",
+            "article_url": "https://seekingalpha.com//article/4648970-mobileye-global-stock-q3-2023-earnings-2024-looks-year-inflection-maintain-buy"
+        },
+        {
+            "id": "4648987",
+            "publish_time": "2023-11-08T02:30:00-05:00",
+            "title": "On The 'Disinflation Train': Is This The End Of The Line For Rate Hikes?",
+            "article_url": "https://seekingalpha.com//article/4648987-disinflation-train-is-this-end-of-line-for-rate-hikes"
+        },
+        {
+            "id": "4648969",
+            "publish_time": "2023-11-08T02:26:23-05:00",
+            "title": "Altria: This 9.5% Yield Is Too Good To Ignore (Rating Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4648969-altria-this-9-5-percent-yield-is-too-good-to-ignore-rating-upgrade"
+        },
+        {
+            "id": "4648968",
+            "publish_time": "2023-11-08T02:25:56-05:00",
+            "title": "Advanced Drainage Systems: Weak Q2 Results With No Significant Growth Prospect",
+            "article_url": "https://seekingalpha.com//article/4648968-advanced-drainage-systems-weak-q2-results-with-no-significant-growth-prospect"
+        },
+        {
+            "id": "4648992",
+            "publish_time": "2023-11-08T02:25:00-05:00",
+            "title": "LRT Capital Management October 2023 Investor Update",
+            "article_url": "https://seekingalpha.com//article/4648992-lrt-capital-management-october-2023-investor-update"
+        },
+        {
+            "id": "4648967",
+            "publish_time": "2023-11-08T02:22:50-05:00",
+            "title": "Enfusion: Still Bullish Considering Q3 EBITDA Beat",
+            "article_url": "https://seekingalpha.com//article/4648967-enfusion-stock-still-bullish-considering-q3-ebitda-beat"
+        },
+        {
+            "id": "4648965",
+            "publish_time": "2023-11-08T02:21:30-05:00",
+            "title": "GEO Group: The Opportunity Is Still Big",
+            "article_url": "https://seekingalpha.com//article/4648965-geo-group-the-opportunity-is-still-big"
+        },
+        {
+            "id": "4648991",
+            "publish_time": "2023-11-08T02:21:14-05:00",
+            "title": "Brighthouse Financial, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4648991-brighthouse-financial-inc-2023-q3-results-earnings-call-presentation"
+        },
+        {
+            "id": "4648986",
+            "publish_time": "2023-11-08T02:20:00-05:00",
+            "title": "Andvari Associates - Rollins: Unlikely To Ever Become Obsolete",
+            "article_url": "https://seekingalpha.com//article/4648986-rollins-stock-unlikely-to-ever-become-obsolete"
+        },
+        {
+            "id": "4648962",
+            "publish_time": "2023-11-08T02:03:23-05:00",
+            "title": "CWB: Convertibles Offer No Competitive Yield",
+            "article_url": "https://seekingalpha.com//article/4648962-cwb-convertibles-offer-no-competitive-yield"
+        },
+        {
+            "id": "4648963",
+            "publish_time": "2023-11-08T02:00:00-05:00",
+            "title": "Shrinking Lemeng Faces Uphill Road To New York IPO",
+            "article_url": "https://seekingalpha.com//article/4648963-shrinking-lemeng-faces-uphill-road-to-new-york-ipo"
+        },
+        {
+            "id": "4648960",
+            "publish_time": "2023-11-08T01:50:00-05:00",
+            "title": "10 Market Trends To Follow For Potentially Outsized Returns In 2024",
+            "article_url": "https://seekingalpha.com//article/4648960-10-market-trends-follow-potentially-outsized-returns-2024"
+        },
+        {
+            "id": "4648973",
+            "publish_time": "2023-11-08T01:45:00-05:00",
+            "title": "Bank Fundamentals Remain Solid, But Concerns Linger",
+            "article_url": "https://seekingalpha.com//article/4648973-bank-fundamentals-remain-solid-but-concerns-linger"
+        },
+        {
+            "id": "4648959",
+            "publish_time": "2023-11-08T01:44:37-05:00",
+            "title": "D.R. Horton: Beating Estimates Again",
+            "article_url": "https://seekingalpha.com//article/4648959-dr-horton-q4-earnings-beating-estimates-again"
+        },
+        {
+            "id": "4648958",
+            "publish_time": "2023-11-08T01:41:27-05:00",
+            "title": "Warren Buffett Proved Berkshire Hathaway's Quality As He Loads Up On Cash",
+            "article_url": "https://seekingalpha.com//article/4648958-warren-buffett-loads-up-on-cash-proved-berkshire-hathaway-quality"
+        },
+        {
+            "id": "4648956",
+            "publish_time": "2023-11-08T01:20:02-05:00",
+            "title": "Bausch + Lomb: Not A Good Time To Buy (Rating Downgrade)",
+            "article_url": "https://seekingalpha.com//article/4648956-bausch-plus-lomb-not-good-time-to-buy"
+        },
+        {
+            "id": "4648955",
+            "publish_time": "2023-11-08T01:08:29-05:00",
+            "title": "American Eagle: Limited Margin Of Safety At Current Levels",
+            "article_url": "https://seekingalpha.com//article/4648955-american-eagle-stock-limited-margin-of-safety-current-levels-maintain-hold"
+        },
+        {
+            "id": "4648954",
+            "publish_time": "2023-11-08T01:06:10-05:00",
+            "title": "Dividend Aristocrat A. O. Smith Continues Its Solid Performance",
+            "article_url": "https://seekingalpha.com//article/4648954-dividend-aristocrat-a-o-smith-continues-its-solid-performance"
+        },
+        {
+            "id": "4648951",
+            "publish_time": "2023-11-08T00:46:27-05:00",
+            "title": "Marriott International: Encouraging Growth In RevPAR And EBITDA",
+            "article_url": "https://seekingalpha.com//article/4648951-marriott-international-q3-earnings-encouraging-growth-revpar-ebitda"
+        },
+        {
+            "id": "4648950",
+            "publish_time": "2023-11-08T00:41:14-05:00",
+            "title": "BIZD: Reducing Risk In BDC",
+            "article_url": "https://seekingalpha.com//article/4648950-bizd-reducing-risk-in-bdc"
+        },
+        {
+            "id": "4648947",
+            "publish_time": "2023-11-08T00:36:06-05:00",
+            "title": "XLB: The ETF That Beat The S&P 500",
+            "article_url": "https://seekingalpha.com//article/4648947-xlb-basic-materials-focused-etf-beat-sp-500"
+        },
+        {
+            "id": "4648943",
+            "publish_time": "2023-11-08T00:25:07-05:00",
+            "title": "Dominion Energy Upholds Big Dividend, Shares Pop",
+            "article_url": "https://seekingalpha.com//article/4648943-dominion-energy-upholds-big-dividend-shares-pop"
+        },
+        {
+            "id": "4648937",
+            "publish_time": "2023-11-08T00:21:33-05:00",
+            "title": "Four Corners: Upgrade To Buy On Sector Diversification And Improved Tenant Quality (Ratings Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4648937-four-corners-reit-q3-earnings-upgrade-buy-sector-diversification-improved-tenant-quality"
+        },
+        {
+            "id": "4648935",
+            "publish_time": "2023-11-08T00:20:37-05:00",
+            "title": "Ever Rising Bond Yields?",
+            "article_url": "https://seekingalpha.com//article/4648935-ever-rising-bond-yields"
+        },
+        {
+            "id": "4648981",
+            "publish_time": "2023-11-08T00:20:00-05:00",
+            "title": "Andvari Associates Q3 2023 Letter",
+            "article_url": "https://seekingalpha.com//article/4648981-andvari-associates-q3-2023-letter"
+        },
+        {
+            "id": "4646303",
+            "publish_time": "2023-11-08T00:00:00-05:00",
+            "title": "Politics And The Markets 11/08/23",
+            "article_url": "https://seekingalpha.com//article/4646303-politics-and-the-markets-110823"
+        },
+        {
+            "id": "4648928",
+            "publish_time": "2023-11-07T23:59:21-05:00",
+            "title": "Kimco Realty: 5.1% Yield, 58% Payout Ratio, 12x FFO Multiple",
+            "article_url": "https://seekingalpha.com//article/4648928-kimco-realty-5-1-percent-yield-58-percent-pay-out-ratio-12x-ffo-multiple"
+        },
+        {
+            "id": "4648926",
+            "publish_time": "2023-11-07T23:55:01-05:00",
+            "title": "Talen Energy: Reborn With Massive Optionality",
+            "article_url": "https://seekingalpha.com//article/4648926-talen-energy-reborn-with-massive-optionality"
+        },
+        {
+            "id": "4648925",
+            "publish_time": "2023-11-07T23:53:50-05:00",
+            "title": "SoftBank Group Faces Challenges On All Fronts",
+            "article_url": "https://seekingalpha.com//article/4648925-softbank-group-stock-faces-challenges-on-all-fronts"
+        },
+        {
+            "id": "4648924",
+            "publish_time": "2023-11-07T23:47:34-05:00",
+            "title": "Alteryx: Optimism Returning At Last",
+            "article_url": "https://seekingalpha.com//article/4648924-alteryx-stock-q3-2023-earnings-strong-top-line-momentum-cost-discipline-maintain-buy"
+        },
+        {
+            "id": "4648918",
+            "publish_time": "2023-11-07T23:41:16-05:00",
+            "title": "Keyera: Set To Outperform Again In 2024",
+            "article_url": "https://seekingalpha.com//article/4648918-keyera-set-to-outperform-again-in-2024"
+        },
+        {
+            "id": "4648915",
+            "publish_time": "2023-11-07T23:39:03-05:00",
+            "title": "Fisker: Is The Upside Large Enough To Offset The Potential Downside?",
+            "article_url": "https://seekingalpha.com//article/4648915-fisker-is-the-upside-large-enough-to-offset-the-potential-downside"
+        },
+        {
+            "id": "4648945",
+            "publish_time": "2023-11-07T23:32:28-05:00",
+            "title": "ON24, Inc. 2023 Q3 - Results - Earnings Call Presentation",
+            "article_url": "https://seekingalpha.com//article/4648945-on24-inc-2023-q3-results-earnings-call-presentation"
+        }
+    ]
+}
