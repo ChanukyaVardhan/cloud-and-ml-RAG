@@ -47,3 +47,4 @@ CMD ["python", "python/text_embedding_server.py"]
 
 
 # kubectl create secret generic google-credentials --from-file=service-account.json="/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-406515-21425057babc.json"
+# kubectl config use-context gke_cloud-and-ml-406515_us-east1-c_cloudml-gke-cluster-1

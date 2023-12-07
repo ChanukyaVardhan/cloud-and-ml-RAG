@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package text_embedding;
 
+import "google/protobuf/timestamp.proto";
+
 message SaveTextEmbeddingRequest {
   string url = 1;
 }
@@ -10,8 +12,26 @@ message SaveTextEmbeddingResponse {
   bool status = 1;
 }
 
+message GetSimilarityRequest {
+  string text1 = 1;
+  string text2 = 2;
+}
+
+message GetSimilarityResponse {
+  repeated TextSimilarity text_similarity = 1;
+}
+
+message TextSimilarity {
+  string text1 = 1;
+  string text2 = 2;
+  float similarity = 3;
+}
+
 message GetPreferenceArticlesRequest {
   string preference_text = 1;
+  google.protobuf.Timestamp start_time = 2;
+  google.protobuf.Timestamp end_time = 3;
+  int64 num_matches = 4;
 }
 
 message GetPreferenceArticlesResponse {
@@ -21,9 +41,12 @@ message GetPreferenceArticlesResponse {
 message PreferenceArticle {
   string url = 1;
   string summary = 2;
+  float similarity = 3;
+  google.protobuf.Timestamp published_on = 4;
 }
 
 service TextEmbedding {
   rpc SaveTextEmbedding (SaveTextEmbeddingRequest) returns (SaveTextEmbeddingResponse);
+  rpc GetSimilarity (GetSimilarityRequest) returns (GetSimilarityResponse);
   rpc GetPreferenceArticles (GetPreferenceArticlesRequest) returns (GetPreferenceArticlesResponse);
 }

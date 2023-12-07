@@ -54,4 +54,4 @@ def run_json(file_name):
 
 if __name__ == '__main__':
     # run()
-    run_json("/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-01T04:00:00.000Z.json")
+    run_json("/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-08T04:00:00.000Z.json")
