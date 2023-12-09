@@ -1,21 +1,23 @@
-from bs4 import BeautifulSoup
+import sys
 from collections import defaultdict
 from concurrent import futures
 from datetime import datetime
+
+from bs4 import BeautifulSoup
 from google.cloud.sql.connector import Connector
 from pgvector.asyncpg import register_vector
 
-import sys
 sys.path.append('generated/')
 
-import asyncpg
 import asyncio
-import bert
-import grpc
 import json
 import logging
 import os
 import re
+
+import asyncpg
+import bert
+import grpc
 import requests
 import text_embedding_pb2
 import text_embedding_pb2_grpc
@@ -23,7 +25,7 @@ import torch
 
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-406515-21425057babc.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/scratch/sca321/cloud/proj2/cloud-and-ml-RAG/service_account.json"
 
 class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
