@@ -1,31 +1,36 @@
-from bs4 import BeautifulSoup
+import sys
 from collections import defaultdict
 from concurrent import futures
 from datetime import datetime, timedelta
+
+from bs4 import BeautifulSoup
 from google.cloud.sql.connector import Connector
 from google.protobuf.timestamp_pb2 import Timestamp
+from InstructorEmbedding import INSTRUCTOR
 from pgvector.asyncpg import register_vector
 
-import sys
 sys.path.append('generated/')
 
-import asyncpg
 import asyncio
-import bert
-import grpc
 import json
 import logging
 import os
 import re
+
+import asyncpg
+import bert
+import grpc
+import instructor
+import numpy as np
 import requests
 import text_embedding_pb2
 import text_embedding_pb2_grpc
 import torch
-import numpy as np
+from InstructorEmbedding import INSTRUCTOR
 
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-406515-21425057babc.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/scratch/sca321/cloud/proj2/new/cloud-and-ml-RAG/service_account.json"
 
 class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
@@ -35,6 +40,8 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         self.similarity_threshold = 0.9
         self.default_num_matches = 5
         self.epoch_start = datetime.fromisoformat("1970-01-01T00:00:00")
+        self.instruction = 'Represent the Financial statement: '
+        self.retrievalmodel = instructor.Instructor(self.instruction)
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -79,7 +86,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         article = BeautifulSoup(response.text, 'html.parser')
         article_information = self._get_article_information(str(article))
 
-        chunks, all_embeddings = self.bert.get_embedding(article_information["content"], split_chunks = True)
+        chunks, all_embeddings = self.retrievalmodel.get_embedding(article_information["content"], split_chunks = True)
 
         try:
             # CHECK - FIX THIS, IS IT BETTER TO MAINTAIN A POOL?
@@ -108,8 +115,10 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         text1 = request.text1
         text2 = request.text2
 
-        _, embedding1 = self.bert.get_embedding(text1, split_chunks = False)
-        chunks, all_embeddings2 = self.bert.get_embedding(text2, split_chunks = True)
+
+
+        _, embedding1 = self.retrievalmodel.get_embedding(text1, split_chunks = False)
+        chunks, all_embeddings2 = self.retrievalmodel.get_embedding(text2, split_chunks = True)
 
         response = text_embedding_pb2.GetSimilarityResponse()
         for chunk, embedding2 in zip(chunks, all_embeddings2):

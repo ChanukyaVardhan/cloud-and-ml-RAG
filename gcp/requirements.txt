@@ -1,3 +1,4 @@
+torch
 transformers
 grpcio
 grpcio-tools
@@ -8,3 +9,14 @@ cloud-sql-python-connector
 langchain
 pgvector
 gradio
+datasets
+jsonlines
+numpy
+requests
+scikit_learn
+scipy
+sentence_transformers
+tqdm
+rich
+pyarrow
+bs4

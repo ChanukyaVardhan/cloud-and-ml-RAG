@@ -1,12 +1,13 @@
 import sys
+
 sys.path.append('generated/')
 
-import grpc
 import json
-import text_embedding_pb2
-import text_embedding_pb2_grpc
 import time
 
+import grpc
+import text_embedding_pb2
+import text_embedding_pb2_grpc
 
 # def run():
 #     with grpc.insecure_channel('localhost:50051') as channel:
