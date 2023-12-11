@@ -15,7 +15,7 @@ def iso_datetime_to_timestamp(iso_datetime_string):
     return timestamp
 
 def run():
-    with grpc.insecure_channel('localhost:50051') as channel:
+    with grpc.insecure_channel('localhost:50052') as channel:
     # with grpc.insecure_channel('34.74.89.40:80') as channel:
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 

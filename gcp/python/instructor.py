@@ -2,8 +2,6 @@ import numpy as np
 import torch
 from InstructorEmbedding import INSTRUCTOR
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from transformers import BertModel, BertTokenizer
-
 
 class Instructor:
 
@@ -15,7 +13,7 @@ class Instructor:
         self.text_splitter = RecursiveCharacterTextSplitter(
             separators=[". ", "\n", " ", ""],
             chunk_size=1800,
-            chunk_overlap=0,
+            chunk_overlap=360,
             length_function=len,
         )
         self.chunk_batch_size = 5
@@ -27,16 +25,15 @@ class Instructor:
             all_embeddings = []
             for i in range(0, len(chunks), self.chunk_batch_size):
                 batch = chunks[i:i + self.chunk_batch_size]
-                embeddings = self._get_batch_embedding(batch)
+                embeddings = self._get_batch_embedding(batch, self.instruction)
                 all_embeddings.extend(embeddings)
 
             return chunks, np.array(all_embeddings)
 
         else:
-            inputs = self.tokenizer(text, return_tensors='pt')
             with torch.no_grad():
-                outputs = self.model(**inputs)
-            return text, outputs.pooler_output[0].numpy()
+                outputs = self.model.encode([[self.instruction, text]])
+            return text, outputs
 
     def _get_batch_embedding(self, texts, instruction):
         # Pair each text with the common instruction
@@ -46,9 +43,3 @@ class Instructor:
         with torch.no_grad():
             customized_embeddings = self.model.encode(texts_with_instructions)
         return customized_embeddings
-
-    # def _get_batch_embedding(self, texts):
-    #     #inputs = self.tokenizer(texts, padding=True, truncation=True, return_tensors='pt')
-    #     with torch.no_grad():
-    #         outputs = self.model(**texts, self.instruction)
-    #     return outputs.pooler_output.numpy()

@@ -40,7 +40,7 @@ def run_json(file_name):
     urls = get_urls_from_json(file_name)
 
     start_time = time.time()
-    with grpc.insecure_channel('localhost:50051') as channel:
+    with grpc.insecure_channel('localhost:50055') as channel:
     # with grpc.insecure_channel('34.74.89.40:80') as channel:
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 
@@ -55,4 +55,4 @@ def run_json(file_name):
 
 if __name__ == '__main__':
     # run()
-    run_json("/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-08T04:00:00.000Z.json")
+    run_json("/Users/saicharithaakula/Desktop/aamasterse/cloud/final/cloud-and-ml-RAG/json_dumps/2023-11-14T04:00:00.000Z.json")

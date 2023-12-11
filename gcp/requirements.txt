@@ -20,3 +20,4 @@ tqdm
 rich
 pyarrow
 bs4
+InstructorEmbedding

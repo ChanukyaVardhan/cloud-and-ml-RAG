@@ -18,7 +18,6 @@ import os
 import re
 
 import asyncpg
-import bert
 import grpc
 import instructor
 import numpy as np
@@ -30,18 +29,17 @@ from InstructorEmbedding import INSTRUCTOR
 
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/scratch/sca321/cloud/proj2/new/cloud-and-ml-RAG/service_account.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/saicharithaakula/Desktop/aamasterse/cloud/final/cloud-and-ml-RAG/service_account.json"
 
 class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
     def __init__(self):
-        self.bert = bert.Bert()
         self.db_pool = None
         self.similarity_threshold = 0.9
         self.default_num_matches = 5
         self.epoch_start = datetime.fromisoformat("1970-01-01T00:00:00")
         self.instruction = 'Represent the Financial statement: '
-        self.retrievalmodel = instructor.Instructor(self.instruction)
+        self.retrievalmodel = instructor.Instructor('Represent the Financial statement: ')
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -114,22 +112,25 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
     async def GetSimilarity(self, request, context):
         text1 = request.text1
         text2 = request.text2
-
-
-
         _, embedding1 = self.retrievalmodel.get_embedding(text1, split_chunks = False)
         chunks, all_embeddings2 = self.retrievalmodel.get_embedding(text2, split_chunks = True)
 
         response = text_embedding_pb2.GetSimilarityResponse()
-        for chunk, embedding2 in zip(chunks, all_embeddings2):
+        simmax = 0
+        for chunk, embedding2 in zip(chunks, all_embeddings2):    
+            # Calculate the similarity score, which should now be a single float
+            similarity_score = self._cosine_similarity(embedding1, embedding2)  
+            #print(similarity_score[0])          
+            simmax = max(simmax, similarity_score[0])
             response.text_similarity.append(
                 text_embedding_pb2.TextSimilarity(
                     text1 = text1,
                     text2 = chunk,
-                    similarity = self._cosine_similarity(embedding1, embedding2),
+                    similarity = similarity_score[0],
                 )
             )
-
+        print(simmax)
+        print("\n\n")
         return response
 
     async def GetPreferenceArticles(self, request, context):
@@ -147,7 +148,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
         logging.info(f"Start GetPreferenceArticles request for {num_matches} articles between {start_time} and {end_time}!")
 
-        _, preference_embedding = self.bert.get_embedding(preference_text, split_chunks = False)
+        _, preference_embedding = self.retrievalmodel.get_embedding(preference_text, split_chunks = False)
         try:
             similarity_query_results = await self.db_pool.fetch(
                 """
@@ -218,7 +219,7 @@ async def serve():
 
     server = grpc.aio.server()
     text_embedding_pb2_grpc.add_TextEmbeddingServicer_to_server(servicer, server)
-    listen_addr = "[::]:50051"
+    listen_addr = "[::]:50055"
     server.add_insecure_port(listen_addr)
     logging.info("Starting server on %s", listen_addr)
     await server.start()
