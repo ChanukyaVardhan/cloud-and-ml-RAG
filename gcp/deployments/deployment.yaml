@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: text-embedding-server
+  name: crg9968-text-embedding-server
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: text-embedding-server
+      app: crg9968-text-embedding-server
   template:
     metadata:
       labels:
-        app: text-embedding-server
+        app: crg9968-text-embedding-server
     spec:
       containers:
-      - name: text-embedding-server
-        image: chanukya43/cloudml-project-docker:fall2023
+      - name: crg9968-text-embedding-server
+        image: chanukya43/cloudml-project:fall2023
         imagePullPolicy: Always
         ports:
         - containerPort: 50051
         env:
         - name: GOOGLE_APPLICATION_CREDENTIALS
-          value: /var/secrets/google/service-account.json
+          value: /var/secrets/google/crg9968-service-account.json
         volumeMounts:
         - name: google-credentials-volume
           mountPath: /var/secrets/google
