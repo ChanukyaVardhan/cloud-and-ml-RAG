@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: text-embedding-server-service
+  name: crg9968-text-embedding-server-service
 spec:
   selector:
-    app: text-embedding-server
+    app: crg9968-text-embedding-server
   ports:
     - protocol: TCP
       port: 80

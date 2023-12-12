@@ -31,7 +31,7 @@ def get_urls_from_json(file_name):
     articles = data.get('articles_metadata', [])
     
     # Extract URLs from each article
-    urls = [article.get('article_url') for article in articles]
+    urls = [article.get('article_url') for article in articles if 'Earnings Call Presentation' not in article['title']]
 
     return urls
 

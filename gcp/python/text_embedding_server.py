@@ -1,17 +1,17 @@
+import sys
+sys.path.append('generated/')
+
 from bs4 import BeautifulSoup
 from collections import defaultdict
 from concurrent import futures
 from datetime import datetime, timedelta
 from google.cloud.sql.connector import Connector
 from google.protobuf.timestamp_pb2 import Timestamp
+from instructor import Instructor, InstructorModelType
 from pgvector.asyncpg import register_vector
-
-import sys
-sys.path.append('generated/')
 
 import asyncpg
 import asyncio
-import bert
 import grpc
 import json
 import logging
@@ -25,16 +25,17 @@ import numpy as np
 
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-406515-21425057babc.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/service_account.json"
 
 class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
     def __init__(self):
-        self.bert = bert.Bert()
         self.db_pool = None
-        self.similarity_threshold = 0.9
+        self.similarity_threshold = 0.5
         self.default_num_matches = 5
         self.epoch_start = datetime.fromisoformat("1970-01-01T00:00:00")
+        self.financial_instruction = 'Represent the Financial statement: '
+        self.retrieval_model = Instructor(InstructorModelType.LARGE, self.financial_instruction)
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -79,7 +80,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         article = BeautifulSoup(response.text, 'html.parser')
         article_information = self._get_article_information(str(article))
 
-        chunks, all_embeddings = self.bert.get_embedding(article_information["content"], split_chunks = True)
+        chunks, all_embeddings = self.retrieval_model.get_embedding(article_information["content"], split_chunks = True)
 
         try:
             # CHECK - FIX THIS, IS IT BETTER TO MAINTAIN A POOL?
@@ -108,18 +109,22 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         text1 = request.text1
         text2 = request.text2
 
-        _, embedding1 = self.bert.get_embedding(text1, split_chunks = False)
-        chunks, all_embeddings2 = self.bert.get_embedding(text2, split_chunks = True)
+        _, embedding1 = self.retrieval_model.get_embedding(text1, split_chunks = False)
+        chunks, all_embeddings2 = self.retrieval_model.get_embedding(text2, split_chunks = True)
 
+        max_similarity = 0.0
         response = text_embedding_pb2.GetSimilarityResponse()
         for chunk, embedding2 in zip(chunks, all_embeddings2):
+            similarity_score = self._cosine_similarity(embedding1, embedding2)
+            max_similarity = max(max_similarity, similarity_score)
             response.text_similarity.append(
                 text_embedding_pb2.TextSimilarity(
                     text1 = text1,
                     text2 = chunk,
-                    similarity = self._cosine_similarity(embedding1, embedding2),
+                    similarity = similarity_score,
                 )
             )
+        print(max_similarity)
 
         return response
 
@@ -132,13 +137,15 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         if end_time == self.epoch_start: # No end time passed
             end_time = datetime.now()
         if start_time == self.epoch_start: # No start time passed
-            start_time = end_time - timedelta(days=7)
+            start_time = end_time - timedelta(days=100)
         if num_matches == 0: # If no matches requested, default to 5
             num_matches = self.default_num_matches
 
-        logging.info(f"Start GetPreferenceArticles request for {num_matches} articles between {start_time} and {end_time}!")
+        logging.info(f"Start GetPreferenceArticles request with text as {preference_text} for {num_matches} articles between {start_time} and {end_time}!")
 
-        _, preference_embedding = self.bert.get_embedding(preference_text, split_chunks = False)
+        _, preference_embedding = self.retrieval_model.get_embedding(preference_text, split_chunks = False)
+        if preference_embedding.ndim > 1:
+            preference_embedding = preference_embedding.flatten()
         try:
             similarity_query_results = await self.db_pool.fetch(
                 """
@@ -163,7 +170,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
             query_results = await self.db_pool.fetch(
                 """
-                SELECT id, article_url, chunk_number, content FROM text_embeddings
+                SELECT id, article_url, chunk_number, content, publish_time FROM text_embeddings
                 WHERE id = ANY($1)
                 """,
                 list(article_to_similarity.keys()),
@@ -172,8 +179,10 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             # Process the query results
             articles_by_url = defaultdict(list)
             for row in query_results:
-                article_id, article_url, chunk_number, content = row['id'], row['article_url'], row['chunk_number'], row['content']
-                articles_by_url[article_url].append((chunk_number, content, article_id))
+                published_on = Timestamp()
+                published_on.FromDatetime(row['publish_time'])
+                article_id, article_url, chunk_number, content, publish_on = row['id'], row['article_url'], row['chunk_number'], row['content'], published_on
+                articles_by_url[article_url].append((chunk_number, content, article_id, publish_on))
 
             # Construct the response using Proto message types
             response = text_embedding_pb2.GetPreferenceArticlesResponse()
@@ -182,7 +191,8 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
                 sorted_chunks = sorted(chunks, key=lambda x: x[0])
                 article_text = ' '.join([chunk[1] for chunk in sorted_chunks])
                 similarity = article_to_similarity[chunks[0][2]]
-                article = text_embedding_pb2.PreferenceArticle(url=article_url, summary=article_text, similarity=similarity)
+                print(chunks[0][3])
+                article = text_embedding_pb2.PreferenceArticle(url=article_url, summary=article_text, similarity=similarity, published_on=chunks[0][3])
                 
                 # Append the article along with its similarity to the list
                 articles_with_similarity.append(article)
@@ -194,6 +204,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             for article in sorted_articles:
                 response.article.append(article)
 
+            logging.info(f"Found {len(sorted_articles)} articles!")
             logging.info(f"Completed GetPreferenceArticles request for {num_matches} articles between {start_time} and {end_time}!")
             return response
 
