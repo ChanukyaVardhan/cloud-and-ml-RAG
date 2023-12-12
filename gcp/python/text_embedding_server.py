@@ -39,7 +39,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         self.default_num_matches = 5
         self.epoch_start = datetime.fromisoformat("1970-01-01T00:00:00")
         self.instruction = 'Represent the Financial statement: '
-        self.retrievalmodel = instructor.Instructor('Represent the Financial statement: ')
+        self.retrievalmodel = instructor.Instructor(self.instruction)
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -138,17 +138,18 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         start_time = request.start_time.ToDatetime()
         end_time = request.end_time.ToDatetime()
         num_matches = request.num_matches
-
         if end_time == self.epoch_start: # No end time passed
             end_time = datetime.now()
         if start_time == self.epoch_start: # No start time passed
             start_time = end_time - timedelta(days=7)
         if num_matches == 0: # If no matches requested, default to 5
             num_matches = self.default_num_matches
-
+        print(f'data inside getpreference articles {num_matches}')
         logging.info(f"Start GetPreferenceArticles request for {num_matches} articles between {start_time} and {end_time}!")
-
         _, preference_embedding = self.retrievalmodel.get_embedding(preference_text, split_chunks = False)
+        if preference_embedding.ndim > 1:
+            preference_embedding = preference_embedding.flatten()
+        print(f'preference text is {preference_text} and preference embedding shape is {preference_embedding.shape}')
         try:
             similarity_query_results = await self.db_pool.fetch(
                 """
@@ -169,6 +170,8 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
                 start_time,
                 end_time
             )
+            print(f'data inside getpreference articles results {similarity_query_results}')
+
             article_to_similarity = {row['id']: row['max_similarity'] for row in similarity_query_results}
 
             query_results = await self.db_pool.fetch(
@@ -219,7 +222,7 @@ async def serve():
 
     server = grpc.aio.server()
     text_embedding_pb2_grpc.add_TextEmbeddingServicer_to_server(servicer, server)
-    listen_addr = "[::]:50055"
+    listen_addr = "[::]:50056"
     server.add_insecure_port(listen_addr)
     logging.info("Starting server on %s", listen_addr)
     await server.start()

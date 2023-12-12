@@ -31,16 +31,15 @@ def get_urls_from_json(file_name):
     # Extract the list of articles
     articles = data.get('articles_metadata', [])
     
-    # Extract URLs from each article
-    urls = [article.get('article_url') for article in articles]
-
+    # Extract URLs from each article    
+    urls = [article.get('article_url') for article in articles if 'Earnings Call Presentation' not in article['title']]
     return urls
 
 def run_json(file_name):
     urls = get_urls_from_json(file_name)
 
     start_time = time.time()
-    with grpc.insecure_channel('localhost:50055') as channel:
+    with grpc.insecure_channel('localhost:50056') as channel:
     # with grpc.insecure_channel('34.74.89.40:80') as channel:
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 
@@ -55,4 +54,7 @@ def run_json(file_name):
 
 if __name__ == '__main__':
     # run()
-    run_json("/Users/saicharithaakula/Desktop/aamasterse/cloud/final/cloud-and-ml-RAG/json_dumps/2023-11-14T04:00:00.000Z.json")
+    # for i in range(9):
+    #     run_json(f'/Users/saicharithaakula/Desktop/aamasterse/cloud/final/cloud-and-ml-RAG/json_dumps/2023-11-1{i+1}T04:00:00.000Z.json')
+    #for i in range(10):
+    run_json(f'/Users/saicharithaakula/Desktop/aamasterse/cloud/final/cloud-and-ml-RAG/json_dumps/2023-11-14T04:00:00.000Z.json')    

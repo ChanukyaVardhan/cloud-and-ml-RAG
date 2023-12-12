@@ -7,7 +7,7 @@ class Instructor:
 
     def __init__(self, instruction):
         #self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.model = INSTRUCTOR('hkunlp/instructor-base')
+        self.model = INSTRUCTOR('hkunlp/instructor-large')
         self.instruction = instruction
 
         self.text_splitter = RecursiveCharacterTextSplitter(
