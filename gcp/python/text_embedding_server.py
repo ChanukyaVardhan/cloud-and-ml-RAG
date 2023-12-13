@@ -244,7 +244,7 @@ async def serve():
     await servicer.init_db()
 
     server = grpc.aio.server(interceptors=(
-        PromServerInterceptor(
+        PromAioServerInterceptor(
             enable_handling_time_histogram=True
         ),
     ))
