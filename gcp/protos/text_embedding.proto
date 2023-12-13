@@ -40,9 +40,10 @@ message GetPreferenceArticlesResponse {
 
 message PreferenceArticle {
   string url = 1;
-  string summary = 2;
-  float similarity = 3;
-  google.protobuf.Timestamp published_on = 4;
+  string title = 2;
+  string summary = 3;
+  float similarity = 4;
+  google.protobuf.Timestamp published_on = 5;
 }
 
 service TextEmbedding {

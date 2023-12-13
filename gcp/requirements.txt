@@ -21,3 +21,4 @@ rich
 pyarrow
 bs4
 InstructorEmbedding
+gradio_calendar

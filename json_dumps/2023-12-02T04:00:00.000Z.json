@@ -1,0 +1,515 @@
+{
+    "count": 85,
+    "articles_metadata": [
+        {
+            "id": "4655601",
+            "publish_time": "2023-12-02T22:19:05-05:00",
+            "title": "Palo Alto Networks: Fully Valued",
+            "article_url": "https://seekingalpha.com//article/4655601-palo-alto-networks-fully-valued"
+        },
+        {
+            "id": "4655599",
+            "publish_time": "2023-12-02T22:02:06-05:00",
+            "title": "Duluth Holdings: 2024 Will Be The Make Or Break Year",
+            "article_url": "https://seekingalpha.com//article/4655599-duluth-holdings-2024-will-be-the-make-or-break-year"
+        },
+        {
+            "id": "4655598",
+            "publish_time": "2023-12-02T21:50:09-05:00",
+            "title": "La-Z-Boy Shoots Comfortably Higher",
+            "article_url": "https://seekingalpha.com//article/4655598-la-z-boy-shoots-comfortably-higher"
+        },
+        {
+            "id": "4655597",
+            "publish_time": "2023-12-02T21:42:00-05:00",
+            "title": "Reasons For Optimism On China's Economy Heading Into 2024",
+            "article_url": "https://seekingalpha.com//article/4655597-reasons-for-optimism-on-china-economy-heading-into-2024"
+        },
+        {
+            "id": "4655596",
+            "publish_time": "2023-12-02T20:41:40-05:00",
+            "title": "QCLN: Upgrading On Valuation, Long-Term Support Brings In Buyers",
+            "article_url": "https://seekingalpha.com//article/4655596-qcln-upgrading-on-valuation-long-term-support-brings-in-buyers"
+        },
+        {
+            "id": "4655519",
+            "publish_time": "2023-12-02T14:00:00-05:00",
+            "title": "How To Build A High-Potential Dividend Portfolio Combining Dividend Income With Dividend Growth",
+            "article_url": "https://seekingalpha.com//article/4655519-build-high-potential-dividend-portfolio-combining-income-with-growth"
+        },
+        {
+            "id": "4655515",
+            "publish_time": "2023-12-02T12:30:00-05:00",
+            "title": "November Winners",
+            "article_url": "https://seekingalpha.com//article/4655515-november-winners"
+        },
+        {
+            "id": "4655446",
+            "publish_time": "2023-12-02T11:40:00-05:00",
+            "title": "Bank of America: Using 6.4%-Yielding Preferred Shares To Speculate On A Rate Cut",
+            "article_url": "https://seekingalpha.com//article/4655446-bank-of-america-using-6-4-percent-yielding-preferred-shares-speculate-on-rate-cut"
+        },
+        {
+            "id": "4655593",
+            "publish_time": "2023-12-02T10:45:00-05:00",
+            "title": "Global Factory Job Losses Continue As Demand Downturn Persists In November",
+            "article_url": "https://seekingalpha.com//article/4655593-global-factory-job-losses-continue-as-demand-downturn-persists-in-november"
+        },
+        {
+            "id": "4655567",
+            "publish_time": "2023-12-02T10:30:00-05:00",
+            "title": "7%-Yielding UGI Corp: Discounted Dividend Aristocrat",
+            "article_url": "https://seekingalpha.com//article/4655567-7-percent-yielding-ugi-corp-discounted-dividend-aristocrat"
+        },
+        {
+            "id": "4655592",
+            "publish_time": "2023-12-02T10:30:00-05:00",
+            "title": "Semiconductor Supply Chain Outlook",
+            "article_url": "https://seekingalpha.com//article/4655592-semiconductor-supply-chain-outlook"
+        },
+        {
+            "id": "4655591",
+            "publish_time": "2023-12-02T10:20:00-05:00",
+            "title": "US Factories Report Job Losses As Demand Deteriorates, But Price Pressures Weaken",
+            "article_url": "https://seekingalpha.com//article/4655591-us-factories-report-job-losses-as-demand-deteriorates-but-price-pressures-weaken"
+        },
+        {
+            "id": "4655481",
+            "publish_time": "2023-12-02T10:00:00-05:00",
+            "title": "Stocks To Watch: Big Week On Tap For McDonald's, Shopify, GameStop, And Johnson & Johnson",
+            "article_url": "https://seekingalpha.com//article/4655481-stocks-to-watch-big-week-on-tap-for-mcdonalds-shopify-gamestop-and-johnson-and-johnson"
+        },
+        {
+            "id": "4655540",
+            "publish_time": "2023-12-02T10:00:00-05:00",
+            "title": "Opendoor: Headwinds Are Lifting - H1 2024 Will Likely Be Better",
+            "article_url": "https://seekingalpha.com//article/4655540-opendoor-headwinds-are-lifting-h1-2024-will-be-better"
+        },
+        {
+            "id": "4655590",
+            "publish_time": "2023-12-02T10:00:00-05:00",
+            "title": "When Disaster Strikes: Gauging The Investment Risk Of Natural Hazards",
+            "article_url": "https://seekingalpha.com//article/4655590-when-disaster-strikes-gauging-the-investment-risk-of-natural-hazards"
+        },
+        {
+            "id": "4655588",
+            "publish_time": "2023-12-02T09:47:32-05:00",
+            "title": "Dynatrace's Outlook: Assessing Its Investment Appeal",
+            "article_url": "https://seekingalpha.com//article/4655588-dynatrace-outlook-assessing-investment-appeal"
+        },
+        {
+            "id": "4655589",
+            "publish_time": "2023-12-02T09:45:00-05:00",
+            "title": "December 2023 Monthly",
+            "article_url": "https://seekingalpha.com//article/4655589-december-2023-monthly"
+        },
+        {
+            "id": "4655587",
+            "publish_time": "2023-12-02T09:40:35-05:00",
+            "title": "PXE: Targeted Exposure In Energy",
+            "article_url": "https://seekingalpha.com//article/4655587-pxe-targeted-exposure-energy"
+        },
+        {
+            "id": "4655586",
+            "publish_time": "2023-12-02T09:31:42-05:00",
+            "title": "Masimo: Lots Of Moving Parts",
+            "article_url": "https://seekingalpha.com//article/4655586-masimo-moving-parts"
+        },
+        {
+            "id": "4654920",
+            "publish_time": "2023-12-02T09:00:00-05:00",
+            "title": "5 Relatively Secure And Cheap Dividend Stocks To Invest In - December 2023",
+            "article_url": "https://seekingalpha.com//article/4654920-5-relatively-secure-and-cheap-dividend-stocks-to-invest-in-december-2023"
+        },
+        {
+            "id": "4655191",
+            "publish_time": "2023-12-02T09:00:00-05:00",
+            "title": "How Investing $100,000 In REITs Can Be Life-Changing",
+            "article_url": "https://seekingalpha.com//article/4655191-how-investing-100000-in-reits-can-be-life-changing"
+        },
+        {
+            "id": "4655525",
+            "publish_time": "2023-12-02T09:00:00-05:00",
+            "title": "Which ETF May Disappoint Retirees The Most, SCHD Or VYM?",
+            "article_url": "https://seekingalpha.com//article/4655525-which-etf-disappoint-retirees-most-schd-or-vym"
+        },
+        {
+            "id": "4655584",
+            "publish_time": "2023-12-02T08:50:20-05:00",
+            "title": "IGPT: Exposure To AI Thematic Investments",
+            "article_url": "https://seekingalpha.com//article/4655584-igpt-exposure-to-ai-thematic-investments"
+        },
+        {
+            "id": "4655583",
+            "publish_time": "2023-12-02T08:44:19-05:00",
+            "title": "Laboratory Corporation: Multiple Updates, Same Investment Conclusion",
+            "article_url": "https://seekingalpha.com//article/4655583-laboratory-corporation-multiple-updates-same-investment-conclusion"
+        },
+        {
+            "id": "4655582",
+            "publish_time": "2023-12-02T08:39:14-05:00",
+            "title": "Cloudflare's Strategic Shift To AI: A Calculated Risk",
+            "article_url": "https://seekingalpha.com//article/4655582-cloudflares-strategic-shift-to-ai-calculated-risk"
+        },
+        {
+            "id": "4655581",
+            "publish_time": "2023-12-02T08:32:32-05:00",
+            "title": "CEF Weekly Review: Deleveraging Is Less Damaging For Net Income These Days",
+            "article_url": "https://seekingalpha.com//article/4655581-cef-weekly-review-deleveraging-is-less-damaging-for-net-income-these-days"
+        },
+        {
+            "id": "4655517",
+            "publish_time": "2023-12-02T08:15:00-05:00",
+            "title": "Dividend Investing Like Charlie Munger",
+            "article_url": "https://seekingalpha.com//article/4655517-dividend-investing-like-charlie-munger"
+        },
+        {
+            "id": "4655585",
+            "publish_time": "2023-12-02T08:10:00-05:00",
+            "title": "What Do We Expect For Markets In 2024?",
+            "article_url": "https://seekingalpha.com//article/4655585-what-do-we-expect-for-markets-in-2024"
+        },
+        {
+            "id": "4655508",
+            "publish_time": "2023-12-02T08:00:00-05:00",
+            "title": "Slowly The Long Leading Indicators Turn... 'Less Bad'?",
+            "article_url": "https://seekingalpha.com//article/4655508-slowly-the-long-leading-indicators-turn-less-bad"
+        },
+        {
+            "id": "4655579",
+            "publish_time": "2023-12-02T07:54:25-05:00",
+            "title": "Louisiana-Pacific: Siding And Solutions Drive Structural Growth Despite OSB Volatility",
+            "article_url": "https://seekingalpha.com//article/4655579-louisiana-pacific-siding-and-solutions-drive-structural-growth-despite-osb-volatility"
+        },
+        {
+            "id": "4655578",
+            "publish_time": "2023-12-02T07:53:02-05:00",
+            "title": "Kroger Q3: Severely Undervalued And I'm Buying The Dip",
+            "article_url": "https://seekingalpha.com//article/4655578-kroger-q3-severely-undervalued-im-buying-dip"
+        },
+        {
+            "id": "4655576",
+            "publish_time": "2023-12-02T07:42:00-05:00",
+            "title": "International Consolidated Airlines: Incredibly Cheap Airline With A Good Business Model",
+            "article_url": "https://seekingalpha.com//article/4655576-international-consolidated-airlines-incredibly-cheap-airline-with-a-good-business-model"
+        },
+        {
+            "id": "4655175",
+            "publish_time": "2023-12-02T07:35:00-05:00",
+            "title": "10 Buffett-Style Dividend Aristocrats Yielding As Much As 10%",
+            "article_url": "https://seekingalpha.com//article/4655175-10-buffett-style-dividend-aristocrats-yielding-as-much-as-10-percent"
+        },
+        {
+            "id": "4655575",
+            "publish_time": "2023-12-02T07:28:57-05:00",
+            "title": "Branicks: Zero Or Hero",
+            "article_url": "https://seekingalpha.com//article/4655575-branicks-zero-or-hero"
+        },
+        {
+            "id": "4655580",
+            "publish_time": "2023-12-02T07:12:17-05:00",
+            "title": "Wall Street Breakfast: What Moved Markets",
+            "article_url": "https://seekingalpha.com//article/4655580-wall-street-breakfast-what-moved-markets"
+        },
+        {
+            "id": "4655574",
+            "publish_time": "2023-12-02T07:09:58-05:00",
+            "title": "Cloudflare: Why I Am Now Downgrading The Stock",
+            "article_url": "https://seekingalpha.com//article/4655574-cloudflare-downgrading-stock"
+        },
+        {
+            "id": "4655463",
+            "publish_time": "2023-12-02T07:00:00-05:00",
+            "title": "Back Up Santa's Sleigh With 3 SWANs (Instead Of 3 French Hens)",
+            "article_url": "https://seekingalpha.com//article/4655463-back-up-santas-sleigh-with-3-swans-instead-of-3-french-hens"
+        },
+        {
+            "id": "4655541",
+            "publish_time": "2023-12-02T07:00:00-05:00",
+            "title": "NIO, XPeng, And Li Auto: What Deliveries Tell Us",
+            "article_url": "https://seekingalpha.com//article/4655541-nio-xpeng-and-li-what-deliveries-tell-us"
+        },
+        {
+            "id": "4655577",
+            "publish_time": "2023-12-02T07:00:00-05:00",
+            "title": "Bitcoin Valuation: Four Methods",
+            "article_url": "https://seekingalpha.com//article/4655577-bitcoin-valuation-four-methods"
+        },
+        {
+            "id": "4655573",
+            "publish_time": "2023-12-02T06:59:59-05:00",
+            "title": "Paramount: Is Apple Ready To Buy This Streaming Kingmaker?",
+            "article_url": "https://seekingalpha.com//article/4655573-paramount-is-apple-ready-to-buy-this-streaming-kingmaker"
+        },
+        {
+            "id": "4655572",
+            "publish_time": "2023-12-02T06:40:13-05:00",
+            "title": "EnLink Midstream: Deleveraging Itself And Driving Value Expansion",
+            "article_url": "https://seekingalpha.com//article/4655572-enlink-midstream-llc-deleveraging-itself-driving-value-expansion"
+        },
+        {
+            "id": "4655570",
+            "publish_time": "2023-12-02T06:36:34-05:00",
+            "title": "Dave & Buster's: An Intriguing Turnaround Opportunity",
+            "article_url": "https://seekingalpha.com//article/4655570-dave-and-busters-an-intriguing-turnaround-opportunity"
+        },
+        {
+            "id": "4655565",
+            "publish_time": "2023-12-02T06:00:08-05:00",
+            "title": "Zurich Insurance: Farmers Turnaround In Progress And Higher Remuneration Makes It A Buy",
+            "article_url": "https://seekingalpha.com//article/4655565-zurich-insurance-farmers-turnaround-in-progress-higher-remuneration-buy"
+        },
+        {
+            "id": "4655564",
+            "publish_time": "2023-12-02T05:52:36-05:00",
+            "title": "My Top 10 High Yield Dividend Stocks For December 2023",
+            "article_url": "https://seekingalpha.com//article/4655564-my-top-10-high-yield-dividend-stocks-for-december-2023"
+        },
+        {
+            "id": "4655563",
+            "publish_time": "2023-12-02T05:49:17-05:00",
+            "title": "Federal Reserve Watch: Are Markets Ready To Rise?",
+            "article_url": "https://seekingalpha.com//article/4655563-federal-reserve-watch-are-markets-ready-to-rise"
+        },
+        {
+            "id": "4655562",
+            "publish_time": "2023-12-02T05:45:02-05:00",
+            "title": "Gold Stocks To Rise As Positive Leverage Returns",
+            "article_url": "https://seekingalpha.com//article/4655562-gold-stocks-to-rise-positive-leverage-returns"
+        },
+        {
+            "id": "4655561",
+            "publish_time": "2023-12-02T05:44:51-05:00",
+            "title": "The RMR Group: Steady Income Despite Headwinds In The RE Market",
+            "article_url": "https://seekingalpha.com//article/4655561-the-rmr-group-stock-steady-income-despite-headwinds-in-the-re-market"
+        },
+        {
+            "id": "4655560",
+            "publish_time": "2023-12-02T05:27:14-05:00",
+            "title": "Essential Properties Realty Trust: Still Attractive Despite The Convergence In Valuations",
+            "article_url": "https://seekingalpha.com//article/4655560-essential-properties-realty-trust-attractive-despite-convergence-valuations"
+        },
+        {
+            "id": "4655568",
+            "publish_time": "2023-12-02T05:20:00-05:00",
+            "title": "Private Asset Binge Exposes Insurance To New Risks",
+            "article_url": "https://seekingalpha.com//article/4655568-private-asset-binge-exposes-insurance-to-new-risks"
+        },
+        {
+            "id": "4655559",
+            "publish_time": "2023-12-02T05:18:55-05:00",
+            "title": "Seabridge Gold: Relevant Upside Potential As Gold Turns Bullish",
+            "article_url": "https://seekingalpha.com//article/4655559-seabridge-gold-relevant-upside-potential-as-gold-turns-bullish"
+        },
+        {
+            "id": "4655558",
+            "publish_time": "2023-12-02T05:17:01-05:00",
+            "title": "Xcel Energy: A Blue-Chip Utility Worth Buying",
+            "article_url": "https://seekingalpha.com//article/4655558-xcel-energy-blue-chip-utility-worth-buying"
+        },
+        {
+            "id": "4655566",
+            "publish_time": "2023-12-02T05:05:00-05:00",
+            "title": "Median Household Income In October 2023",
+            "article_url": "https://seekingalpha.com//article/4655566-median-household-income-in-october-2023"
+        },
+        {
+            "id": "4655557",
+            "publish_time": "2023-12-02T04:59:25-05:00",
+            "title": "ETJ: Good Way To Invest In Equities With Reduced Risk",
+            "article_url": "https://seekingalpha.com//article/4655557-etj-good-way-to-invest-in-equities-with-reduced-risk"
+        },
+        {
+            "id": "4655556",
+            "publish_time": "2023-12-02T04:57:00-05:00",
+            "title": "Thermo Fisher Scientific: I Am Still Waiting For An Attractive Buying Opportunity.",
+            "article_url": "https://seekingalpha.com//article/4655556-thermo-fisher-scientific-waiting-for-attractive-buying-opportunity"
+        },
+        {
+            "id": "4655555",
+            "publish_time": "2023-12-02T04:45:10-05:00",
+            "title": "Canadian Pacific: A Good Buy At Current Levels",
+            "article_url": "https://seekingalpha.com//article/4655555-canadian-pacific-good-buy-current-levels"
+        },
+        {
+            "id": "4655553",
+            "publish_time": "2023-12-02T04:36:17-05:00",
+            "title": "Vonovia Is A 'Buy' Here Due To Confirmed Upside And Undervaluation",
+            "article_url": "https://seekingalpha.com//article/4655553-vonovia-buy-confirmed-upside-undervaluation"
+        },
+        {
+            "id": "4655552",
+            "publish_time": "2023-12-02T04:31:23-05:00",
+            "title": "BGT: The Glory Days For Floaters May Be Ending",
+            "article_url": "https://seekingalpha.com//article/4655552-bgt-the-glory-days-for-floaters-may-be-ending"
+        },
+        {
+            "id": "4655551",
+            "publish_time": "2023-12-02T04:29:43-05:00",
+            "title": "Financially Stretched Consumers Set To Cut Back Spending",
+            "article_url": "https://seekingalpha.com//article/4655551-financially-stretched-consumers-set-to-cut-back-spending"
+        },
+        {
+            "id": "4655550",
+            "publish_time": "2023-12-02T04:08:02-05:00",
+            "title": "GE Healthcare: Unveiling Red Flags In Its Growth Story",
+            "article_url": "https://seekingalpha.com//article/4655550-ge-healthcare-unveiling-red-flags-in-its-growth-story"
+        },
+        {
+            "id": "4655554",
+            "publish_time": "2023-12-02T03:50:00-05:00",
+            "title": "Boarding The R-Train?",
+            "article_url": "https://seekingalpha.com//article/4655554-boarding-the-r-train"
+        },
+        {
+            "id": "4655549",
+            "publish_time": "2023-12-02T03:38:51-05:00",
+            "title": "Genesis Energy: 2025 Could Be A Big Year",
+            "article_url": "https://seekingalpha.com//article/4655549-genesis-energy-2025-could-be-a-big-year"
+        },
+        {
+            "id": "4655547",
+            "publish_time": "2023-12-02T03:28:41-05:00",
+            "title": "Brown-Forman: Spirit Company Priced Like A High-End Cocktail",
+            "article_url": "https://seekingalpha.com//article/4655547-brown-forman-spirit-company-priced-like-a-high-end-cocktail"
+        },
+        {
+            "id": "4655545",
+            "publish_time": "2023-12-02T02:56:46-05:00",
+            "title": "Simon Property Group: Buy Rating Fed By +6% Dividend Yield And Earnings Growth",
+            "article_url": "https://seekingalpha.com//article/4655545-simon-property-group-buy-rating-fed-by-plus-6-percent-dividend-yield-and-earnings-growth"
+        },
+        {
+            "id": "4655544",
+            "publish_time": "2023-12-02T02:53:03-05:00",
+            "title": "Exxon Will Remain In A Good Position Regardless Of Guyana",
+            "article_url": "https://seekingalpha.com//article/4655544-exxon-good-position-regardless-of-guyana"
+        },
+        {
+            "id": "4655543",
+            "publish_time": "2023-12-02T02:51:29-05:00",
+            "title": "PVH's Fashionable Makeover: Divesting For More Cash And Future Potential",
+            "article_url": "https://seekingalpha.com//article/4655543-pvh-fashionable-makeover-divesting-for-more-cash-future-potential"
+        },
+        {
+            "id": "4655542",
+            "publish_time": "2023-12-02T02:40:08-05:00",
+            "title": "Synopsys: Addressing The Semiconductor Talent Gap With AI",
+            "article_url": "https://seekingalpha.com//article/4655542-synopsys-addressing-the-semiconductor-talent-gap-with-ai"
+        },
+        {
+            "id": "4655548",
+            "publish_time": "2023-12-02T02:40:00-05:00",
+            "title": "December 2023 Perspective",
+            "article_url": "https://seekingalpha.com//article/4655548-december-2023-perspective"
+        },
+        {
+            "id": "4655539",
+            "publish_time": "2023-12-02T02:24:45-05:00",
+            "title": "AbbVie: Risky Purchase Of ImmunoGen Could Pay Off Big Time",
+            "article_url": "https://seekingalpha.com//article/4655539-abbvie-risky-purchase-immunogen-pay-off-big-time"
+        },
+        {
+            "id": "4655546",
+            "publish_time": "2023-12-02T02:10:00-05:00",
+            "title": "Growth Up, Inflation Down",
+            "article_url": "https://seekingalpha.com//article/4655546-growth-up-inflation-down"
+        },
+        {
+            "id": "4655537",
+            "publish_time": "2023-12-02T02:02:28-05:00",
+            "title": "Dycom Industries: Well Priced, Positioned, To Compound Shareholder Wealth Over Long Term",
+            "article_url": "https://seekingalpha.com//article/4655537-dycom-industries-well-priced-positioned-compound-wealth-long-term"
+        },
+        {
+            "id": "4655536",
+            "publish_time": "2023-12-02T01:58:26-05:00",
+            "title": "A Change Of Pace On Wall Street",
+            "article_url": "https://seekingalpha.com//article/4655536-change-of-pace-wall-street"
+        },
+        {
+            "id": "4655535",
+            "publish_time": "2023-12-02T01:52:10-05:00",
+            "title": "Allstate: 5 Reasons Why I Am Bullish",
+            "article_url": "https://seekingalpha.com//article/4655535-allstate-5-reasons-why-bullish"
+        },
+        {
+            "id": "4655534",
+            "publish_time": "2023-12-02T01:44:30-05:00",
+            "title": "DoubleVerify: Verified That Growth Momentum Is Sustainable",
+            "article_url": "https://seekingalpha.com//article/4655534-doubleverify-verified-that-growth-momentum-is-sustainable"
+        },
+        {
+            "id": "4655533",
+            "publish_time": "2023-12-02T01:42:12-05:00",
+            "title": "Limoneira: Forward-Looking EPS Prospects Continue To Put Pressure On Share-Price",
+            "article_url": "https://seekingalpha.com//article/4655533-limoneira-forward-looking-eps-prospects-continue-to-put-pressure-on-share-price"
+        },
+        {
+            "id": "4655538",
+            "publish_time": "2023-12-02T01:35:00-05:00",
+            "title": "Money Market Funds: Poised To Fuel A 2024 Risk Asset Rally",
+            "article_url": "https://seekingalpha.com//article/4655538-money-market-funds-poised-to-fuel-2024-risk-asset-rally"
+        },
+        {
+            "id": "4655532",
+            "publish_time": "2023-12-02T01:26:16-05:00",
+            "title": "LVMH: I'm Strongly Buying Into This Massive Opportunity",
+            "article_url": "https://seekingalpha.com//article/4655532-lvmh-im-strongly-buying-into-this-massive-opportunity"
+        },
+        {
+            "id": "4655531",
+            "publish_time": "2023-12-02T01:06:33-05:00",
+            "title": "Arbor Realty Trust: High-King Of mREITs",
+            "article_url": "https://seekingalpha.com//article/4655531-arbor-realty-trust-high-king-of-mreits"
+        },
+        {
+            "id": "4655529",
+            "publish_time": "2023-12-02T00:45:20-05:00",
+            "title": "Sealed Air: Highly-Levered Earnings On Equity Masking Profitability",
+            "article_url": "https://seekingalpha.com//article/4655529-sealed-air-highly-levered-earnings-on-equity-masking-profitability"
+        },
+        {
+            "id": "4655528",
+            "publish_time": "2023-12-02T00:44:02-05:00",
+            "title": "BioVie: Update Following Topline Results (Rating Downgrade)",
+            "article_url": "https://seekingalpha.com//article/4655528-biovie-update-following-topline-results-rating-downgrade"
+        },
+        {
+            "id": "4655527",
+            "publish_time": "2023-12-02T00:36:21-05:00",
+            "title": "3M: 6% Dividend Yield And 11x P/E Are Not Worth The Legal Risks",
+            "article_url": "https://seekingalpha.com//article/4655527-3m-6-percent-dividend-yield-11x-pe-are-not-worth-legal-risks"
+        },
+        {
+            "id": "4655526",
+            "publish_time": "2023-12-02T00:30:49-05:00",
+            "title": "AWF: A Robust Multi-Sector CEF With A 9.3% Discount (Rating Upgrade)",
+            "article_url": "https://seekingalpha.com//article/4655526-awf-a-robust-multi-sector-cef-with-a-9-3-percent-discount"
+        },
+        {
+            "id": "4646346",
+            "publish_time": "2023-12-02T00:00:00-05:00",
+            "title": "Politics And The Markets 12/02/23",
+            "article_url": "https://seekingalpha.com//article/4646346-politics-and-the-markets-120223"
+        },
+        {
+            "id": "4655530",
+            "publish_time": "2023-12-02T00:00:00-05:00",
+            "title": "U.S. Weekly FundFlows Insight Report: Multi-Cap Equity Funds Suffer Largest Weekly Outflow Since 2018",
+            "article_url": "https://seekingalpha.com//article/4655530-us-weekly-fundflows-insight-report-multi-cap-equity-funds-suffer-largest-weekly-outflow-since-2018"
+        },
+        {
+            "id": "4655523",
+            "publish_time": "2023-12-01T23:20:36-05:00",
+            "title": "Fox Corporation: Digital Strategy Progressing Really Well",
+            "article_url": "https://seekingalpha.com//article/4655523-fox-corporation-digital-strategy-progressing-really-well"
+        },
+        {
+            "id": "4655522",
+            "publish_time": "2023-12-01T23:12:43-05:00",
+            "title": "Sea Limited Defending Its Turf",
+            "article_url": "https://seekingalpha.com//article/4655522-sea-limited-defending-its-turf"
+        }
+    ]
+}
