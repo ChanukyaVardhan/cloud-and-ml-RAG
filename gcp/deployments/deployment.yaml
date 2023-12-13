@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-base
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-base
@@ -77,7 +77,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-xl
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-xl
@@ -93,6 +93,108 @@ spec:
         resources:
           limits:
             nvidia.com/gpu: 1
+        ports:
+        - containerPort: 50051
+        env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /var/secrets/google/crg9968-service-account.json
+        - name: INSTRUCTOR_MODEL_TYPE
+          value: "hkunlp/instructor-xl"
+        volumeMounts:
+        - name: google-credentials-volume
+          mountPath: /var/secrets/google
+          readOnly: true
+      volumes:
+      - name: google-credentials-volume
+        secret:
+          secretName: google-credentials
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crg9968-text-embedding-server-base-cpu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crg9968-text-embedding-server-base-cpu
+  template:
+    metadata:
+      labels:
+        app: crg9968-text-embedding-server-base-cpu
+    spec:
+      containers:
+      - name: crg9968-text-embedding-server-base-cpu
+        image: chanukya43/cloudml-project:fall2023
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 50051
+        env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /var/secrets/google/crg9968-service-account.json
+        - name: INSTRUCTOR_MODEL_TYPE
+          value: "hkunlp/instructor-base"
+        volumeMounts:
+        - name: google-credentials-volume
+          mountPath: /var/secrets/google
+          readOnly: true
+      volumes:
+      - name: google-credentials-volume
+        secret:
+          secretName: google-credentials
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crg9968-text-embedding-server-large-cpu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crg9968-text-embedding-server-large-cpu
+  template:
+    metadata:
+      labels:
+        app: crg9968-text-embedding-server-large-cpu
+    spec:
+      containers:
+      - name: crg9968-text-embedding-server-large-cpu
+        image: chanukya43/cloudml-project:fall2023
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 50051
+        env:
+        - name: GOOGLE_APPLICATION_CREDENTIALS
+          value: /var/secrets/google/crg9968-service-account.json
+        - name: INSTRUCTOR_MODEL_TYPE
+          value: "hkunlp/instructor-large"
+        volumeMounts:
+        - name: google-credentials-volume
+          mountPath: /var/secrets/google
+          readOnly: true
+      volumes:
+      - name: google-credentials-volume
+        secret:
+          secretName: google-credentials
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crg9968-text-embedding-server-xl-cpu
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crg9968-text-embedding-server-xl-cpu
+  template:
+    metadata:
+      labels:
+        app: crg9968-text-embedding-server-xl-cpu
+    spec:
+      containers:
+      - name: crg9968-text-embedding-server-xl-cpu
+        image: chanukya43/cloudml-project:fall2023
+        imagePullPolicy: Always
         ports:
         - containerPort: 50051
         env:

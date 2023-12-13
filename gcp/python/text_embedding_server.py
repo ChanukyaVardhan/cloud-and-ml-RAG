@@ -11,6 +11,7 @@ from instructor import Instructor, InstructorModelType
 from pgvector.asyncpg import register_vector
 from py_grpc_prometheus.prometheus_server_interceptor import PromServerInterceptor
 from prometheus_client import start_http_server
+from PromAioServerInterceptor import *
 
 import asyncpg
 import asyncio
@@ -147,6 +148,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         start_time = request.start_time.ToDatetime()
         end_time = request.end_time.ToDatetime()
         num_matches = request.num_matches
+        summarize_articles = request.summarize_articles
 
         if end_time == self.epoch_start: # No end time passed
             end_time = datetime.now()
@@ -182,13 +184,23 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             )
             article_to_similarity = {row['id']: row['max_similarity'] for row in similarity_query_results}
 
-            query_results = await self.db_pool.fetch(
-                f"""
-                SELECT id, article_url, chunk_number, content, publish_time, title FROM {self.table_name}
-                WHERE id = ANY($1)
-                """,
-                list(article_to_similarity.keys()),
-            )
+            if summarize_articles:
+                query_results = await self.db_pool.fetch(
+                    f"""
+                    SELECT id, article_url, chunk_number, content, publish_time, title FROM {self.table_name}
+                    WHERE id = ANY($1)
+                    """,
+                    list(article_to_similarity.keys()),
+                )
+            else: # Get only first chunk
+                query_results = await self.db_pool.fetch(
+                    f"""
+                    SELECT id, article_url, chunk_number, content, publish_time, title FROM {self.table_name}
+                    WHERE id = ANY($1) AND chunk_number = $2
+                    """,
+                    list(article_to_similarity.keys()),
+                    0
+                )
 
             # Process the query results
             articles_by_url = defaultdict(list)
@@ -232,9 +244,8 @@ async def serve():
     await servicer.init_db()
 
     server = grpc.aio.server(interceptors=(
-        PromServerInterceptor(
-            enable_handling_time_histogram=True,
-            skip_exceptions=True
+        PromAioServerInterceptor(
+            enable_handling_time_histogram=True
         ),
     ))
 

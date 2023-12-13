@@ -8,7 +8,12 @@ spec:
   ports:
     - protocol: TCP
       port: 80
+      name: port1
       targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
   type: LoadBalancer  # use LoadBalancer for external access
 ---
 apiVersion: v1
@@ -21,7 +26,12 @@ spec:
   ports:
     - protocol: TCP
       port: 80
+      name: port1
       targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
   type: LoadBalancer  # use LoadBalancer for external access
 ---
 apiVersion: v1
@@ -34,5 +44,64 @@ spec:
   ports:
     - protocol: TCP
       port: 80
+      name: port1
       targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
+  type: LoadBalancer  # use LoadBalancer for external access
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crg9968-text-embedding-server-service-base-cpu
+spec:
+  selector:
+    app: crg9968-text-embedding-server-base-cpu
+  ports:
+    - protocol: TCP
+      port: 80
+      name: port1
+      targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
+  type: LoadBalancer  # use LoadBalancer for external access
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crg9968-text-embedding-server-service-large-cpu
+spec:
+  selector:
+    app: crg9968-text-embedding-server-large-cpu
+  ports:
+    - protocol: TCP
+      port: 80
+      name: port1
+      targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
+  type: LoadBalancer  # use LoadBalancer for external access
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crg9968-text-embedding-server-service-xl-cpu
+spec:
+  selector:
+    app: crg9968-text-embedding-server-xl-cpu
+  ports:
+    - protocol: TCP
+      port: 80
+      name: port1
+      targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
   type: LoadBalancer  # use LoadBalancer for external access
