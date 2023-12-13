@@ -11,6 +11,7 @@ from instructor import Instructor, InstructorModelType
 from pgvector.asyncpg import register_vector
 from py_grpc_prometheus.prometheus_server_interceptor import PromServerInterceptor
 from prometheus_client import start_http_server
+from PromAioServerInterceptor import *
 
 import asyncpg
 import asyncio
@@ -27,7 +28,7 @@ import numpy as np
 
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/service_account.json"
+    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/kamalesh/Desktop/cloud-and-ml-RAG/service_account.json"
 
 class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
 
@@ -232,9 +233,8 @@ async def serve():
     await servicer.init_db()
 
     server = grpc.aio.server(interceptors=(
-        PromServerInterceptor(
-            enable_handling_time_histogram=True,
-            skip_exceptions=True
+        PromAioServerInterceptor(
+            enable_handling_time_histogram=True
         ),
     ))
 
