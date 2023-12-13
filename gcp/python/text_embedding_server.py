@@ -11,6 +11,7 @@ from instructor import Instructor, InstructorModelType
 from pgvector.asyncpg import register_vector
 from py_grpc_prometheus.prometheus_server_interceptor import PromServerInterceptor
 from prometheus_client import start_http_server
+from PromAioServerInterceptor import *
 
 import asyncpg
 import asyncio
@@ -244,8 +245,7 @@ async def serve():
 
     server = grpc.aio.server(interceptors=(
         PromServerInterceptor(
-            enable_handling_time_histogram=True,
-            skip_exceptions=True
+            enable_handling_time_histogram=True
         ),
     ))
 

@@ -32,6 +32,7 @@ message GetPreferenceArticlesRequest {
   google.protobuf.Timestamp start_time = 2;
   google.protobuf.Timestamp end_time = 3;
   int64 num_matches = 4;
+  bool summarize_articles = 5;
 }
 
 message GetPreferenceArticlesResponse {
