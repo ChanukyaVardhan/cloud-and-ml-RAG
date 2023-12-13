@@ -9,6 +9,8 @@ from google.cloud.sql.connector import Connector
 from google.protobuf.timestamp_pb2 import Timestamp
 from instructor import Instructor, InstructorModelType
 from pgvector.asyncpg import register_vector
+from py_grpc_prometheus.prometheus_server_interceptor import PromServerInterceptor
+from prometheus_client import start_http_server
 
 import asyncpg
 import asyncio
@@ -229,12 +231,20 @@ async def serve():
     servicer = TextEmbeddingServicer()
     await servicer.init_db()
 
-    server = grpc.aio.server()
+    server = grpc.aio.server(interceptors=(
+        PromServerInterceptor(
+            enable_handling_time_histogram=True,
+            skip_exceptions=True
+        ),
+    ))
+
     text_embedding_pb2_grpc.add_TextEmbeddingServicer_to_server(servicer, server)
     listen_addr = "[::]:50051"
     server.add_insecure_port(listen_addr)
     logging.info("Starting server on %s", listen_addr)
     await server.start()
+    start_http_server(50052)
+    logging.info("Started metrics server at http://localhost:50052")
     await server.wait_for_termination()
 
 

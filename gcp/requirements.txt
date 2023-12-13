@@ -22,3 +22,4 @@ pyarrow
 bs4
 InstructorEmbedding
 gradio_calendar
+py-grpc-prometheus
