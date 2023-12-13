@@ -13,8 +13,9 @@ class InstructorModelType(Enum):
 
 class Instructor:
 
-    def __init__(self, instructor_model_type: InstructorModelType, instruction: str):
-        self.model = INSTRUCTOR(instructor_model_type.value)
+    def __init__(self, instructor_model_type: str, instruction: str, device: str = 'cpu'):
+        self.device = device
+        self.model = INSTRUCTOR(instructor_model_type).to(self.device)
         self.instruction = instruction
 
         self.text_splitter = RecursiveCharacterTextSplitter(

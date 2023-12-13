@@ -34,8 +34,20 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
         self.similarity_threshold = 0.5
         self.default_num_matches = 5
         self.epoch_start = datetime.fromisoformat("1970-01-01T00:00:00")
+        self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.financial_instruction = 'Represent the Financial statement: '
-        self.retrieval_model = Instructor(InstructorModelType.LARGE, self.financial_instruction)
+        self.instructor_model_type = os.environ.get("INSTRUCTOR_MODEL_TYPE", InstructorModelType.LARGE.value)
+        self.retrieval_model = Instructor(self.instructor_model_type, self.financial_instruction, self.device)
+        
+        self.table_name = None
+        if self.instructor_model_type == InstructorModelType.BASE.value:
+            self.table_name = "text_embeddings_base"
+        elif self.instructor_model_type == InstructorModelType.LARGE.value:
+            self.table_name = "text_embeddings"
+        elif self.instructor_model_type == InstructorModelType.XL.value:
+            self.table_name = "text_embeddings_xl"
+        else:
+            raise ValueError(f"Invalid instructor model type {self.instructor_model_type} passed!")
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -87,7 +99,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             # CHECK - INSERT CHUNKS AS A BATCH INSTEAD OF ONE EACH TIME
             for chunk_number, (chunk, embedding) in enumerate(zip(chunks, all_embeddings)):
                 await self.db_pool.execute(
-                        "INSERT INTO text_embeddings (id, chunk_number, article_url, publish_time, title, content, embedding) VALUES ($1, $2, $3, $4, $5, $6, $7)",
+                        "INSERT INTO " + self.table_name + " (id, chunk_number, article_url, publish_time, title, content, embedding) VALUES ($1, $2, $3, $4, $5, $6, $7)",
                         article_information["id"], chunk_number, url, datetime.fromisoformat(article_information["publish_time"]), article_information["title"], chunk, embedding
                     )
             logging.info(f"Completed SaveTextEmbedding request for url - {url} in {len(chunks)} chunks")
@@ -148,10 +160,10 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             preference_embedding = preference_embedding.flatten()
         try:
             similarity_query_results = await self.db_pool.fetch(
-                """
+                f"""
                 WITH vector_matches AS (
                   SELECT id, 1 - (embedding <=> $1) AS similarity
-                  FROM text_embeddings
+                  FROM {self.table_name}
                   WHERE publish_time > $4 AND publish_time < $5 AND 1 - (embedding <=> $1) > $2
                 )
                 SELECT id, MAX(similarity) AS max_similarity
@@ -169,8 +181,8 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             article_to_similarity = {row['id']: row['max_similarity'] for row in similarity_query_results}
 
             query_results = await self.db_pool.fetch(
-                """
-                SELECT id, article_url, chunk_number, content, publish_time FROM text_embeddings
+                f"""
+                SELECT id, article_url, chunk_number, content, publish_time, title FROM {self.table_name}
                 WHERE id = ANY($1)
                 """,
                 list(article_to_similarity.keys()),
@@ -181,8 +193,8 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             for row in query_results:
                 published_on = Timestamp()
                 published_on.FromDatetime(row['publish_time'])
-                article_id, article_url, chunk_number, content, publish_on = row['id'], row['article_url'], row['chunk_number'], row['content'], published_on
-                articles_by_url[article_url].append((chunk_number, content, article_id, publish_on))
+                article_id, article_url, chunk_number, content, publish_on, title = row['id'], row['article_url'], row['chunk_number'], row['content'], published_on, row['title']
+                articles_by_url[article_url].append((chunk_number, content, article_id, publish_on, title))
 
             # Construct the response using Proto message types
             response = text_embedding_pb2.GetPreferenceArticlesResponse()
@@ -191,8 +203,7 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
                 sorted_chunks = sorted(chunks, key=lambda x: x[0])
                 article_text = ' '.join([chunk[1] for chunk in sorted_chunks])
                 similarity = article_to_similarity[chunks[0][2]]
-                print(chunks[0][3])
-                article = text_embedding_pb2.PreferenceArticle(url=article_url, summary=article_text, similarity=similarity, published_on=chunks[0][3])
+                article = text_embedding_pb2.PreferenceArticle(url=article_url, title=chunks[0][4], summary=article_text, published_on=chunks[0][3], similarity=similarity)
                 
                 # Append the article along with its similarity to the list
                 articles_with_similarity.append(article)

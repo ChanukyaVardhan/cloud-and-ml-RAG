@@ -12,7 +12,7 @@ import text_embedding_pb2_grpc
 def retrieval_request(input_text):
     with grpc.insecure_channel('localhost:50051') as channel:
     # with grpc.insecure_channel('34.74.89.40:80') as channel:
-    # with grpc.insecure_channel('34.170.251.52:80') as channel:
+    # with grpc.insecure_channel('34.69.192.208:80') as channel:
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 
         response = stub.GetPreferenceArticles(
@@ -29,18 +29,18 @@ def retrieval_request(input_text):
             # publish_date_str = publish_date.strftime('%Y-%m-%d %H:%M:%S')
             publish_date_str = publish_date.strftime('%b. %d, %Y %I:%M %p ET')
 
-            results.append((article.url, article.summary, publish_date_str))
+            results.append((article.url, article.title, article.summary, publish_date_str))
 
     return results
 
 def display_results(input_text):
     results = retrieval_request(input_text)
     html_output = "<div style='display: grid; grid-template-rows: auto; grid-auto-flow: row; gap: 10px; overflow-x: auto;'>"
-    for url, text, published_on in results:
+    for url, title, text, published_on in results:
         card = f"""
         <div style='border: 1px solid #ddd; border-radius: 10px; padding: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); min-width: 300px;'>
             <a href='{url}' target='_blank' style='text-decoration: none; color: black;'>
-                <h4>{url}</h4>
+                <h4>{title}</h4>
             </a>
             <p style='font-size: small; color: grey;'>{published_on}</p>
             <p>{text}</p>
