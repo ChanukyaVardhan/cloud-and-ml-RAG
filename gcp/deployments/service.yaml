@@ -1,38 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: crg9968-text-embedding-server-service-base
+  name: kn2359-text-embedding-server-service-large
 spec:
   selector:
-    app: crg9968-text-embedding-server-base
+    app: kn2359-text-embedding-server-large
   ports:
     - protocol: TCP
       port: 80
       targetPort: 50051
-  type: LoadBalancer  # use LoadBalancer for external access
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: crg9968-text-embedding-server-service-large
-spec:
-  selector:
-    app: crg9968-text-embedding-server-large
-  ports:
     - protocol: TCP
-      port: 80
-      targetPort: 50051
-  type: LoadBalancer  # use LoadBalancer for external access
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: crg9968-text-embedding-server-service-xl
-spec:
-  selector:
-    app: crg9968-text-embedding-server-xl
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 50051
+      port: 9090
+      targetPort: 50052
   type: LoadBalancer  # use LoadBalancer for external access

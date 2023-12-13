@@ -4,6 +4,7 @@ grpcio
 grpcio-tools
 asyncio
 asyncpg
+pg8000
 google-cloud-aiplatform
 cloud-sql-python-connector
 langchain
