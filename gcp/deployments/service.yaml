@@ -123,3 +123,21 @@ spec:
       port: 9090
       targetPort: 50052
   type: LoadBalancer  # use LoadBalancer for external access
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: crg9968-text-embedding-server-service-large-llm
+spec:
+  selector:
+    app: crg9968-text-embedding-server-large-llm
+  ports:
+    - protocol: TCP
+      port: 80
+      name: port1
+      targetPort: 50051
+    - protocol: TCP
+      name: metrics
+      port: 9090
+      targetPort: 50052
+  type: LoadBalancer  # use LoadBalancer for external access

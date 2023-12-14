@@ -32,6 +32,7 @@ def get_urls_from_json(file_name):
     
     # Extract URLs from each article
     urls = [article.get('article_url') for article in articles if 'Earnings Call Presentation' not in article['title']]
+    print(f"Total inserting articles - {len(urls)}")
 
     return urls
 
@@ -42,7 +43,9 @@ def run_json(file_name):
     # with grpc.insecure_channel('localhost:50051') as channel: # Local Host
     # with grpc.insecure_channel('34.69.192.208:80') as channel: # Large
     # with grpc.insecure_channel('34.173.182.67:80') as channel: # XL
-    with grpc.insecure_channel('34.42.49.197:80') as channel: # Base
+    # with grpc.insecure_channel('34.42.49.197:80') as channel: # Base
+    # with grpc.insecure_channel('34.42.4.35:80') as channel: # Large-CPU
+    with grpc.insecure_channel('35.224.120.150') as channel: # XL-CPU
         stub = text_embedding_pb2_grpc.TextEmbeddingStub(channel)
 
         for url in urls:
@@ -61,27 +64,33 @@ if __name__ == '__main__':
     #     run_json(f"/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-1{i}T04:00:00.000Z.json")
     # run_json(f"/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-30T04:00:00.000Z.json")
     
-    directory = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/"
-    for filename in os.listdir(directory):
-        if filename in ["2023-11-26T04:00:00.000Z.json",
-"2023-11-24T04:00:00.000Z.json",
-"2023-11-04T04:00:00.000Z.json",
-"2023-12-10T04:00:00.000Z.json",
-"2023-11-09T04:00:00.000Z.json",
-"2023-11-03T04:00:00.000Z.json",
-"2023-11-10T04:00:00.000Z.json",
-"2023-11-16T04:00:00.000Z.json",
-"2023-11-18T04:00:00.000Z.json",
-"2023-12-04T04:00:00.000Z.json",
-"2023-11-05T04:00:00.000Z.json",
-"2023-11-02T04:00:00.000Z.json",
-"2023-11-11T04:00:00.000Z.json",
-"2023-11-29T04:00:00.000Z.json",
-]:
-            continue
-        if "2023-10-" not in filename:
-            filepath = os.path.join(directory, filename)
-            print(filepath)
-            # run_json(filepath)
+    # counter = 0
+    # directory = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/"
+    # for filename in os.listdir(directory):
+#         if filename in ["2023-11-26T04:00:00.000Z.json",
+# "2023-11-24T04:00:00.000Z.json",
+# "2023-11-04T04:00:00.000Z.json",
+# "2023-12-10T04:00:00.000Z.json",
+# "2023-11-09T04:00:00.000Z.json",
+# "2023-11-03T04:00:00.000Z.json",
+# "2023-11-10T04:00:00.000Z.json",
+# "2023-11-16T04:00:00.000Z.json",
+# "2023-11-18T04:00:00.000Z.json",
+# "2023-12-04T04:00:00.000Z.json",
+# "2023-11-05T04:00:00.000Z.json",
+# "2023-11-02T04:00:00.000Z.json",
+# "2023-11-11T04:00:00.000Z.json",
+# "2023-11-29T04:00:00.000Z.json",
+# ]:
+#             continue
+        # if "2023-10-" not in filename and "2023-09-" not in filename:
+        #     filepath = os.path.join(directory, filename)
+        #     # print(filepath)
+        #     # run_json(filepath)
+        #     with open(filepath, 'r') as file:
+        #         data = json.load(file)
+        #         counter += data.get("count")
 
-    # run_json(f"/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-11-01T04:00:00.000Z.json")
+    # print(counter)
+
+    run_json(f"/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/json_dumps/2023-09-28T04:00:00.000Z.json")

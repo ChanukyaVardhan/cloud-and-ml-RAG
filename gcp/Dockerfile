@@ -14,6 +14,12 @@ RUN python3 -m grpc_tools.protoc -I=protos/ --python_out=generated/ --pyi_out=ge
 CMD ["python", "python/text_embedding_server.py"]
 
 
+# sudo docker build -t cloudml-project-llm2 .
+# sudo docker tag cloudml-project-llm2:latest chanukya43/cloudml-project-llm2:fall2023
+# sudo docker push chanukya43/cloudml-project-llm2:fall2023
+
+
+
 # sudo docker build -t cloudml-project .
 # sudo docker images
 # sudo docker run cloudml-project
