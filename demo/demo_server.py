@@ -14,17 +14,17 @@ BASE = "base"
 LARGE = "large"
 XL = "xl"
 
-rpc_endpoint_map = {
-    BASE: "localhost:50051",
-    LARGE: "localhost:50051",
-    XL: "localhost:50051"
-}
-
 # rpc_endpoint_map = {
-#     BASE: "34.42.49.197:80",
-#     LARGE: "34.69.192.208:80",
-#     XL: "34.173.182.67:80"
+#     BASE: "localhost:50051",
+#     LARGE: "localhost:50051",
+#     XL: "localhost:50051"
 # }
+
+rpc_endpoint_map = {
+    BASE: "34.42.49.197:80",
+    LARGE: "34.69.192.208:80",
+    XL: "34.173.182.67:80"
+}
 
 def retrieval_request(model_radio, input_text, start_date, end_date, summarize_articles, num_matches):
     with grpc.insecure_channel(rpc_endpoint_map[model_radio]) as channel:

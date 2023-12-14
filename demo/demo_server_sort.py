@@ -20,11 +20,19 @@ XL = "xl"
 #     XL: "localhost:50051"
 # }
 
+# GPU
 rpc_endpoint_map = {
     BASE: "34.42.49.197:80",
     LARGE: "34.69.192.208:80",
     XL: "34.173.182.67:80"
 }
+
+# CPU
+# rpc_endpoint_map = {
+#     BASE: "35.224.77.150:80",
+#     LARGE: "34.42.4.35:80",
+#     XL: "35.224.120.150:80"
+# }
 
 stored_results = []
 
@@ -37,8 +45,6 @@ def retrieval_request(model_radio, input_text, start_date, end_date, summarize_a
         start_time, end_time = Timestamp(), Timestamp()
         start_time.FromDatetime(start_date)
         end_time.FromDatetime(end_date)
-
-        print(summarize_articles)
 
         response = stub.GetPreferenceArticles(
             text_embedding_pb2.GetPreferenceArticlesRequest(
@@ -91,14 +97,14 @@ def display_results(model_radio, input_text, start_date, end_date, summarize_art
     return update_output_on_sort_change(results)
 
 with gr.Blocks() as demo:
-    gr.Markdown("<h2 style='text-align: center;'>RAG Demo Interface</h2>")
+    gr.Markdown("<h2 style='text-align: center;'>Market Flux Finder Demo</h2>")
     with gr.Row():
-        model_radio = gr.Radio(["base", "large", "xl"], label="Which retrieval model would you like to choose?", value="large", scale=4)
-        summary_checkbox = gr.Checkbox(label="Summarize articles (takes time to load)", scale=2)
-        num_matches = gr.Dropdown(choices=[1, 2, 5, 10, 15, 25, 50], value=5, interactive=True, label="Number of articles", scale=2)
-        sort_order = gr.Dropdown(choices=["Best Match", "Most Recent First", "Oldest First"], value="Best Match", interactive=True, label="Sort Order", scale=2)
+        model_radio = gr.Radio(["base", "large", "xl"], label="Choose embedding model (large the better)", value="large", scale=3)
+        summary_checkbox = gr.Checkbox(label="Summarize articles (takes time to load)", scale=1)
+        num_matches = gr.Dropdown(choices=[1, 2, 5, 10, 15, 25, 50], value=5, interactive=True, label="Number of articles", scale=1)
+        sort_order = gr.Dropdown(choices=["Best Match", "Most Recent First", "Oldest First"], value="Best Match", interactive=True, label="Sort Order", scale=1)
     with gr.Row():
-        text_input = gr.Textbox(lines=2, label="Retrieval Text", placeholder="Enter text here...", scale=4)
+        text_input = gr.Textbox(lines=2, label="Query", placeholder="Enter text here...", scale=4)
         start_date = Calendar(type="datetime", label="Start Date", scale=1, value="2023-11-24"),
         end_date = Calendar(type="datetime", label="End Date", scale=1, value="2023-11-30"),
     submit_button = gr.Button("Submit")
@@ -110,4 +116,5 @@ with gr.Blocks() as demo:
 
 demo.launch()
 
-# I am interested in investing in us treasury bonds which are risk free over long term, for example bonds that are greater than 10 years. Show me necessary maro economic trends and SOFR rates.
+# I am interested in investing in us treasury bonds which are risk free over long term, for example bonds that are greater than 10 years. Show me necessary macro economic trends and SOFR rates.
+# I am interested in investing in us treasury bonds which are risk free over long term, for example bonds that are greater than 10 years. Show me necessary macro economic trends.

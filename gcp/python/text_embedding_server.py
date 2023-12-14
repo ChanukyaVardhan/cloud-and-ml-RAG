@@ -26,6 +26,8 @@ import text_embedding_pb2_grpc
 import torch
 import numpy as np
 
+from transformers import pipeline
+
 # Set the path to the service account key
 if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", None):
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/home/chanukya/Desktop/SEM 3/Cloud and ML/Project/cloud-and-ml-RAG/service_account.json"
@@ -51,6 +53,9 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             self.table_name = "text_embeddings_xl"
         else:
             raise ValueError(f"Invalid instructor model type {self.instructor_model_type} passed!")
+
+        # Bart
+        self.bart_pipe = pipeline("summarization", model="facebook/bart-large-cnn")
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
@@ -216,6 +221,12 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             for article_url, chunks in articles_by_url.items():
                 sorted_chunks = sorted(chunks, key=lambda x: x[0])
                 article_text = ' '.join([chunk[1] for chunk in sorted_chunks])
+
+                if summarize_articles:
+                    text_chunks = [chunk[1] for chunk in sorted_chunks]
+                    summary_chunks = self.bart_pipe(text_chunks, batch_size = len(text_chunks))
+                    article_text = ' '.join([summary_chunk['summary_text'] for summary_chunk in summary_chunks])
+
                 similarity = article_to_similarity[chunks[0][2]]
                 article = text_embedding_pb2.PreferenceArticle(url=article_url, title=chunks[0][4], summary=article_text, published_on=chunks[0][3], similarity=similarity)
                 
