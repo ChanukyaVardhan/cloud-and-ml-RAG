@@ -125,8 +125,14 @@ def get_articles(start_date, end_date, article_count = None):
 if __name__ == "__main__":
     
     start_date = "2023-11-01T04:00:00.000Z"
-    # end_date = "2023-11-02T03:59:59.999Z"
-    end_date = "2023-11-01T05:00:00.000Z"
-    articles = get_articles(start_date, end_date, article_count = 1)
+    end_date = "2023-11-02T03:59:59.999Z"
 
-    print(json.dumps(articles[0], indent = 4))
+    articles_metadata = scrape_from_api(start_date, end_date)
+
+    # Dumping the dictionary into a JSON file
+    if (len(articles_metadata)) > 0:
+        with open(f'json_dumps/{start_date}.json', 'w') as file:
+            json.dump({"count": len(articles_metadata), "articles_metadata": articles_metadata}, file, indent=4)
+
+    # articles = get_articles(start_date, end_date, article_count = 1)
+    # print(json.dumps(articles[0], indent = 4))
