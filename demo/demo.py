@@ -27,7 +27,7 @@ rpc_endpoint_map = {
     XL: "34.173.182.67:80"
 }
 
-# CPU
+# # CPU
 # rpc_endpoint_map = {
 #     BASE: "35.224.77.150:80",
 #     LARGE: "34.42.4.35:80",
@@ -57,6 +57,8 @@ def retrieval_request(model_radio, input_text, start_date, end_date, summarize_a
 
         results = []
         for article in response.article:
+            if not summarize_articles:
+                article.summary += "\t ..."
             results.append((article.url, article.title, article.summary, article.published_on, article.similarity))
 
         stored_results = results
@@ -100,7 +102,7 @@ with gr.Blocks() as demo:
     gr.Markdown("<h2 style='text-align: center;'>Market Flux Finder Demo</h2>")
     with gr.Row():
         model_radio = gr.Radio(["base", "large", "xl"], label="Choose embedding model (large the better)", value="large", scale=3)
-        summary_checkbox = gr.Checkbox(label="Summarize articles (takes time to load)", scale=1)
+        summary_checkbox = gr.Checkbox(label="Summarize articles", scale=1)
         num_matches = gr.Dropdown(choices=[1, 2, 5, 10, 15, 25, 50], value=5, interactive=True, label="Number of articles", scale=1)
         sort_order = gr.Dropdown(choices=["Best Match", "Most Recent First", "Oldest First"], value="Best Match", interactive=True, label="Sort Order", scale=1)
     with gr.Row():
@@ -114,7 +116,6 @@ with gr.Blocks() as demo:
 
     submit_button.click(fn=display_results, inputs=[model_radio, text_input, start_date[0], end_date[0], summary_checkbox, num_matches, sort_order], outputs=output_html)
 
-demo.launch()
+demo.launch(share=True)
 
-# I am interested in investing in us treasury bonds which are risk free over long term, for example bonds that are greater than 10 years. Show me necessary macro economic trends and SOFR rates.
 # I am interested in investing in us treasury bonds which are risk free over long term, for example bonds that are greater than 10 years. Show me necessary macro economic trends.

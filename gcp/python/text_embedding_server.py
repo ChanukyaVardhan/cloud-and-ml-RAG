@@ -55,7 +55,10 @@ class TextEmbeddingServicer(text_embedding_pb2_grpc.TextEmbedding):
             raise ValueError(f"Invalid instructor model type {self.instructor_model_type} passed!")
 
         # Bart
-        self.bart_pipe = pipeline("summarization", model="facebook/bart-large-cnn")
+        if self.device == 'cuda':
+            self.bart_pipe = pipeline("summarization", model="facebook/bart-large-cnn", device=0)
+        else:
+            self.bart_pipe = pipeline("summarization", model="facebook/bart-large-cnn")
 
     async def init_db(self):
         loop = asyncio.get_running_loop()
