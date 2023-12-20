@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-base
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-base
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: crg9968-text-embedding-server-base
-        image: chanukya43/cloudml-project:fall2023
+        image: chanukya43/cloudml-project-comp:fall2023
         imagePullPolicy: Always
         resources:
           limits:
@@ -41,7 +41,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-large
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-large
@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: crg9968-text-embedding-server-large
-        image: chanukya43/cloudml-project:fall2023
+        image: chanukya43/cloudml-project-comp:fall2023
         imagePullPolicy: Always
         resources:
           limits:
@@ -79,7 +79,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-xl
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-xl
@@ -90,7 +90,7 @@ spec:
     spec:
       containers:
       - name: crg9968-text-embedding-server-xl
-        image: chanukya43/cloudml-project:fall2023
+        image: chanukya43/cloudml-project-comp:fall2023
         imagePullPolicy: Always
         resources:
           limits:
@@ -117,7 +117,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-base-cpu
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-base-cpu
@@ -152,7 +152,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-large-cpu
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-large-cpu
@@ -187,7 +187,7 @@ kind: Deployment
 metadata:
   name: crg9968-text-embedding-server-xl-cpu
 spec:
-  replicas: 1
+  replicas: 0
   selector:
     matchLabels:
       app: crg9968-text-embedding-server-xl-cpu
@@ -208,44 +208,6 @@ spec:
           value: /var/secrets/google/crg9968-service-account.json
         - name: INSTRUCTOR_MODEL_TYPE
           value: "hkunlp/instructor-xl"
-        volumeMounts:
-        - name: google-credentials-volume
-          mountPath: /var/secrets/google
-          readOnly: true
-      volumes:
-      - name: google-credentials-volume
-        secret:
-          secretName: google-credentials
----
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: crg9968-text-embedding-server-large-llm
-spec:
-  replicas: 0
-  selector:
-    matchLabels:
-      app: crg9968-text-embedding-server-large-llm
-  template:
-    metadata:
-      labels:
-        app: crg9968-text-embedding-server-large-llm
-    spec:
-      containers:
-      - name: crg9968-text-embedding-server-large-llm
-        image: chanukya43/cloudml-project-llm2:fall2023
-        imagePullPolicy: Always
-        resources:
-          limits:
-            nvidia.com/gpu: 1
-        ports:
-        - containerPort: 50051
-        - containerPort: 50052
-        env:
-        - name: GOOGLE_APPLICATION_CREDENTIALS
-          value: /var/secrets/google/crg9968-service-account.json
-        - name: INSTRUCTOR_MODEL_TYPE
-          value: "hkunlp/instructor-large"
         volumeMounts:
         - name: google-credentials-volume
           mountPath: /var/secrets/google
